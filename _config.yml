@@ -5,8 +5,8 @@ baseurl: "/lab" # the subpath of your site, e.g. /blog
 url: "https://datacentricdesign.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
+username: Data-Centric Design Lab
+user_description:
 email: jacky@datacentricdesign.org
 twitter_username: jackybourgeois
 github_username:  jackybourgeois
