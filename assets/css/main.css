@@ -2106,6 +2106,7 @@ footer p, footer a {
     background-color: #637a91
 }
 
+
 .post-misc .title-category {
     color: #7aab13
 }
@@ -2203,5 +2204,216 @@ footer p, footer a {
 }
 
 .post-misc footer {
+    background-color: #7aab13
+}
+
+
+
+
+
+.post-ifonly .title-category {
+    color: #7aab13
+}
+
+.post-ifonly .post-content h1, .post-ifonly .post-content h2, .post-ifonly .post-content h3, .post-ifonly .post-content h4 {
+    color: #7aab13
+}
+
+.post-ifonly .post-content a {
+    color: #7aab13;
+    border-bottom: 2px dashed #7aab13;
+}
+
+.post-ifonly .post-content a:hover {
+    background-color: #7aab13;
+    color: #fff
+}
+
+.post-ifonly .post-content strong {
+    color: #7aab13
+}
+
+.post-ifonly .post-content p code, .post-ifonly .post-content li code {
+    color: #7aab13
+}
+
+.post-ifonly .post-content blockquote {
+    border-left: .313rem solid #7aab13
+}
+
+.post-ifonly .header-post, .post-ifonly .header-site {
+    background-color: #7aab13;
+}
+
+.post-ifonly .header-post h1, .post-ifonly .header-site h1 {
+    text-shadow: 3px 3px #62890f
+}
+
+.post-ifonly .bar-header .logo a {
+    color: #7aab13
+}
+
+.post-ifonly .author .email, .post-ifonly .author .github {
+    color: #7aab13
+}
+
+.post-ifonly .share a:hover svg {
+    fill: #7aab13
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .post-ifonly body.search-overlay:after {
+        background-color: #7aab13
+    }
+}
+
+.post-ifonly .icon-menu {
+    fill: #7aab13
+}
+
+.post-ifonly .box-body h2 {
+    color: #7aab13
+}
+
+.post-ifonly .box-body .tags a {
+    color: #7aab13;
+    border: 1px solid #7aab13;
+}
+
+.post-ifonly .box-body .tags a:hover {
+    color: #fff;
+    background: #7aab13
+}
+
+.post-ifonly aside {
+    background-color: #7aab13;
+}
+
+.post-ifonly aside nav li a:hover {
+    color: #7aab13
+}
+
+.post-ifonly .ribbon span {
+    background-color: #7aab13;
+}
+
+.post-ifonly .ribbon span:before {
+    border-left: 3px solid #55780d;
+    border-top: 3px solid #55780d
+}
+
+.post-ifonly .ribbon span:after {
+    border-right: 3px solid #55780d;
+    border-top: 3px solid #55780d
+}
+
+.post-ifonly footer {
+    background-color: #7aab13
+}
+
+
+
+
+
+
+
+
+.post-material .title-category {
+    color: #7aab13
+}
+
+.post-material .post-content h1, .post-material .post-content h2, .post-material .post-content h3, .post-material .post-content h4 {
+    color: #7aab13
+}
+
+.post-material .post-content a {
+    color: #7aab13;
+    border-bottom: 2px dashed #7aab13;
+}
+
+.post-material .post-content a:hover {
+    background-color: #7aab13;
+    color: #fff
+}
+
+.post-material .post-content strong {
+    color: #7aab13
+}
+
+.post-material .post-content p code, .post-material .post-content li code {
+    color: #7aab13
+}
+
+.post-material .post-content blockquote {
+    border-left: .313rem solid #7aab13
+}
+
+.post-material .header-post, .post-material .header-site {
+    background-color: #7aab13;
+}
+
+.post-material .header-post h1, .post-material .header-site h1 {
+    text-shadow: 3px 3px #62890f
+}
+
+.post-material .bar-header .logo a {
+    color: #7aab13
+}
+
+.post-material .author .email, .post-material .author .github {
+    color: #7aab13
+}
+
+.post-material .share a:hover svg {
+    fill: #7aab13
+}
+
+@media only screen and (max-width: 37.5rem) {
+    .post-material body.search-overlay:after {
+        background-color: #7aab13
+    }
+}
+
+.post-material .icon-menu {
+    fill: #7aab13
+}
+
+.post-material .box-body h2 {
+    color: #7aab13
+}
+
+.post-material .box-body .tags a {
+    color: #7aab13;
+    border: 1px solid #7aab13;
+}
+
+.post-material .box-body .tags a:hover {
+    color: #fff;
+    background: #7aab13
+}
+
+.post-material aside {
+    background-color: #7aab13;
+}
+
+.post-material aside nav li a:hover {
+    color: #7aab13
+}
+
+.post-material .ribbon span {
+    background-color: #7aab13;
+}
+
+.post-material .ribbon span:before {
+    border-left: 3px solid #55780d;
+    border-top: 3px solid #55780d
+}
+
+.post-material .ribbon span:after {
+    border-right: 3px solid #55780d;
+    border-top: 3px solid #55780d
+}
+
+.post-material footer {
     background-color: #7aab13
 }
