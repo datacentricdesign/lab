@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title:  "Automatically Labelling Data at Collection Time in Python""
+title:  "Automatically Labelling Data at Collection Time in Python"
 date:   2019-05-08 01:30:13
 image: '/assets/img/'
 description: 

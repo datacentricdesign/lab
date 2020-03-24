@@ -10,7 +10,7 @@ color:
 tags: events, prototype, wheelchair, master, elective, connected, product
 categories:
 twitter_text:
-introduction: On November 4 from 11:00 to 14:00, students of the Master Elective 'Prototyping Connected Products' will exhibit and demonstrate their work: 8 internet-connected wheelchairs with sensors, actuators and data processing components.
+introduction: "On November 4 from 11:00 to 14:00, students of the Master Elective 'Prototyping Connected Products' will exhibit and demonstrate their work: 8 internet-connected wheelchairs with sensors, actuators and data processing components."
 ---
 
 ![Prototyping Connected Products](/images/2019-04-01-pcp.jpg)
