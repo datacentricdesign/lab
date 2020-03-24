@@ -7,8 +7,12 @@ image: '/assets/img/'
 description: Some Raspberry Pi settings
 main-class: 'tutorial'
 color:
-tags: platform, hardware, raspberry pi
+tags:
+- platform
+- hardware
+- "raspberry pi"
 categories:
+- Platform
 twitter_text:
 introduction:
 ---

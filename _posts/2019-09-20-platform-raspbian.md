@@ -14,8 +14,12 @@ image: '/assets/img/'
 description: 
 main-class: 'tutorial'
 color:
-tags: platform, raspberry pi, raspbian
+tags:
+- platform
+- "raspberry pi"
+- raspbian
 categories:
+- Platform
 twitter_text:
 introduction: 
 ---

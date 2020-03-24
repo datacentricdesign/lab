@@ -1,11 +1,4 @@
 ---
-layout: minimal
-title: "JavaScript SDK"
-permalink: /js-sdk/index.html
-description: "JavaScript SDK"
----
-
----
 layout: post
 comments: true
 title:  "DCD Hub - JavaScript SDK"

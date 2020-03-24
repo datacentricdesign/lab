@@ -9,6 +9,7 @@ main-class: 'tutorial'
 color:
 tags: platform, hardware, feather, bluetooth
 categories:
+- Platform
 twitter_text:
 introduction: The Adafruit Feather is a complete line of development boards that are both standalone and stackable.
 ---
