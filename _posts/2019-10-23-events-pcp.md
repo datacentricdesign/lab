@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Exhibition - Prototyping Connected Product"
 date:   2019-10-23 14:30:00
-image: '/assets/img/posts/2019-04-01-pcp.jpg'
+image: '/lab/assets/img/posts/2019-04-01-pcp.jpg'
 description: Master Elective - TU Delft
 main-class: 'event'
 color:
