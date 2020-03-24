@@ -4,4 +4,14 @@ node_modules
 _drafts
 .idea
 *.iml
+.vscode
+.jekyll
 .jekyll-cache
+.jekyll-metadata
+.bundle
+.sass-cache
+Gemfile
+Gemfile.lock
+package.json
+*.gem
+*.gemspec

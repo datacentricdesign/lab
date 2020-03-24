@@ -1506,203 +1506,209 @@ footer p, footer a {
     margin: 0
 }
 
-.post-jekyll .title-category {
+
+
+
+.post-event .title-category {
     color: #b31917
 }
 
-.post-jekyll .post-content h1, .post-jekyll .post-content h2, .post-jekyll .post-content h3, .post-jekyll .post-content h4 {
+.post-event .post-content h1, .post-event .post-content h2, .post-event .post-content h3, .post-event .post-content h4 {
     color: #b31917
 }
 
-.post-jekyll .post-content a {
+.post-event .post-content a {
     color: #b31917;
     border-bottom: 2px dashed #b31917;
 }
 
-.post-jekyll .post-content a:hover {
+.post-event .post-content a:hover {
     background-color: #b31917;
     color: #fff
 }
 
-.post-jekyll .post-content strong {
+.post-event .post-content strong {
     color: #b31917
 }
 
-.post-jekyll .post-content p code, .post-jekyll .post-content li code {
+.post-event .post-content p code, .post-event .post-content li code {
     color: #b31917
 }
 
-.post-jekyll .post-content blockquote {
+.post-event .post-content blockquote {
     border-left: .313rem solid #b31917
 }
 
-.post-jekyll .header-post, .post-jekyll .header-site {
+.post-event .header-post, .post-event .header-site {
     background-color: #b31917;
 }
 
-.post-jekyll .header-post h1, .post-jekyll .header-site h1 {
+.post-event .header-post h1, .post-event .header-site h1 {
     text-shadow: 3px 3px #8f1412
 }
 
-.post-jekyll .bar-header .logo a {
+.post-event .bar-header .logo a {
     color: #b31917
 }
 
-.post-jekyll .author .email, .post-jekyll .author .github {
+.post-event .author .email, .post-event .author .github {
     color: #b31917
 }
 
-.post-jekyll .share a:hover svg {
+.post-event .share a:hover svg {
     fill: #b31917
 }
 
 @media only screen and (max-width: 37.5rem) {
-    .post-jekyll body.search-overlay:after {
+    .post-event body.search-overlay:after {
         background-color: #b31917
     }
 }
 
-.post-jekyll .icon-menu {
+.post-event .icon-menu {
     fill: #b31917
 }
 
-.post-jekyll .box-body h2 {
+.post-event .box-body h2 {
     color: #b31917
 }
 
-.post-jekyll .box-body .tags a {
+.post-event .box-body .tags a {
     color: #b31917;
     border: 1px solid #b31917;
 }
 
-.post-jekyll .box-body .tags a:hover {
+.post-event .box-body .tags a:hover {
     color: #fff;
     background: #b31917
 }
 
-.post-jekyll aside {
+.post-event aside {
     background-color: #b31917;
 }
 
-.post-jekyll aside nav li a:hover {
+.post-event aside nav li a:hover {
     color: #b31917
 }
 
-.post-jekyll .ribbon span {
+.post-event .ribbon span {
     background-color: #b31917;
 }
 
-.post-jekyll .ribbon span:before {
+.post-event .ribbon span:before {
     border-left: 3px solid #7d1210;
     border-top: 3px solid #7d1210
 }
 
-.post-jekyll .ribbon span:after {
+.post-event .ribbon span:after {
     border-right: 3px solid #7d1210;
     border-top: 3px solid #7d1210
 }
 
-.post-jekyll footer {
+.post-event footer {
     background-color: #b31917
 }
 
-.post-css .title-category {
+
+
+
+.post-tutorial .title-category {
     color: #2da0c3
 }
 
-.post-css .post-content h1, .post-css .post-content h2, .post-css .post-content h3, .post-css .post-content h4 {
+.post-tutorial .post-content h1, .post-tutorial .post-content h2, .post-tutorial .post-content h3, .post-tutorial .post-content h4 {
     color: #2da0c3
 }
 
-.post-css .post-content a {
+.post-tutorial .post-content a {
     color: #2da0c3;
     border-bottom: 2px dashed #2da0c3;
 }
 
-.post-css .post-content a:hover {
+.post-tutorial .post-content a:hover {
     background-color: #2da0c3;
     color: #fff
 }
 
-.post-css .post-content strong {
+.post-tutorial .post-content strong {
     color: #2da0c3
 }
 
-.post-css .post-content p code, .post-css .post-content li code {
+.post-tutorial .post-content p code, .post-tutorial .post-content li code {
     color: #2da0c3
 }
 
-.post-css .post-content blockquote {
+.post-tutorial .post-content blockquote {
     border-left: .313rem solid #2da0c3
 }
 
-.post-css .header-post, .post-css .header-site {
+.post-tutorial .header-post, .post-tutorial .header-site {
     background-color: #2da0c3;
 }
 
-.post-css .header-post h1, .post-css .header-site h1 {
+.post-tutorial .header-post h1, .post-tutorial .header-site h1 {
     text-shadow: 3px 3px #24809c
 }
 
-.post-css .bar-header .logo a {
+.post-tutorial .bar-header .logo a {
     color: #2da0c3
 }
 
-.post-css .author .email, .post-css .author .github {
+.post-tutorial .author .email, .post-tutorial .author .github {
     color: #2da0c3
 }
 
-.post-css .share a:hover svg {
+.post-tutorial .share a:hover svg {
     fill: #2da0c3
 }
 
 @media only screen and (max-width: 37.5rem) {
-    .post-css body.search-overlay:after {
+    .post-tutorial body.search-overlay:after {
         background-color: #2da0c3
     }
 }
 
-.post-css .icon-menu {
+.post-tutorial .icon-menu {
     fill: #2da0c3
 }
 
-.post-css .box-body h2 {
+.post-tutorial .box-body h2 {
     color: #2da0c3
 }
 
-.post-css .box-body .tags a {
+.post-tutorial .box-body .tags a {
     color: #2da0c3;
     border: 1px solid #2da0c3;
 }
 
-.post-css .box-body .tags a:hover {
+.post-tutorial .box-body .tags a:hover {
     color: #fff;
     background: #2da0c3
 }
 
-.post-css aside {
+.post-tutorial aside {
     background-color: #2da0c3;
 }
 
-.post-css aside nav li a:hover {
+.post-tutorial aside nav li a:hover {
     color: #2da0c3
 }
 
-.post-css .ribbon span {
+.post-tutorial .ribbon span {
     background-color: #2da0c3;
 }
 
-.post-css .ribbon span:before {
+.post-tutorial .ribbon span:before {
     border-left: 3px solid #207088;
     border-top: 3px solid #207088
 }
 
-.post-css .ribbon span:after {
+.post-tutorial .ribbon span:after {
     border-right: 3px solid #207088;
     border-top: 3px solid #207088
 }
 
-.post-css footer {
+.post-tutorial footer {
     background-color: #2da0c3
 }
 
