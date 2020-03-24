@@ -9,6 +9,7 @@ main-class: 'tutorial'
 color:
 tags: communication, wheelchair, bluetooth, GATT, feather
 categories:
+- Wheelchair
 twitter_text:
 introduction: In this tutorial we lead you setp-by-step to experience the capabilities of an orientation sensor and set it up on a wheel as a Bluetooth service.
 ---
