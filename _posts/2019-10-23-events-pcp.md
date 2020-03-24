@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Exhibition - Prototyping Connected Product"
 date:   2019-10-23 14:30:00
-image: '/assets/img/'
+image: '/assets/img/posts/2019-04-01-pcp.jpg'
 description: Master Elective - TU Delft
 main-class: 'event'
 color:
@@ -13,8 +13,6 @@ categories:
 twitter_text:
 introduction: "On November 4 from 11:00 to 14:00, students of the Master Elective 'Prototyping Connected Products' will exhibit and demonstrate their work: 8 internet-connected wheelchairs with sensors, actuators and data processing components."
 ---
-
-![Prototyping Connected Products](/images/2019-04-01-pcp.jpg)
 
 **On November 4 from 11:00 to 14:00**, students of the Master Elective 'Prototyping
 Connected Products' will exhibit and demonstrate their work: 8 internet-connected
