@@ -5,19 +5,19 @@ layout: default
 <main class="home" id="post" role="main" itemprop="mainContentOfPage" itemscope="itemscope"
       itemtype="http://schema.org/Blog">
 
-    <div id="grid" class="row flex-grid">
+    <div id="grid-highlights" class="row flex-grid">
         <article class="box-item post-dcd" itemscope="itemscope"
                  itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <span class="ribbon">
                 <a href="{{site.url}}{{site.baseurl}}/category/dcd"><span>dcd</span></a>
             </span>
             <div class="box-body">
-                <a class="post-link" href="{{ site.baseurl }}/2020/03/24/dcd">
+                <a class="post-link" href="{{ site.baseurl }}/dcd">
                     <h2 class="post-title" itemprop="name">
                         Data is becoming a critical design material
                     </h2>
                 </a>
-                <a class="post-link" href="{{ site.baseurl }}/2020/03/24/dcd">
+                <a class="post-link" href="{{ site.baseurl }}/dcd">
                     <p class="description">
                         Data and machine learning algorithms potentially have a profound impact on how design is conducted – yet there is a
                         lack of theories, frameworks and methods for data-centric design. Here we lists three opportunities
@@ -34,14 +34,26 @@ layout: default
         </article>
     </div>
 
-    <div style="text-align: center;margin: 20px">
-        <a href="{{site.baseurl}}/category/material">Material</a>
-        <a href="{{site.baseurl}}/category/tutorial">Tutorial</a>
-        <a href="{{site.baseurl}}/category/event">Event</a>
-        <a href="{{site.baseurl}}/category/ifonly">If Only</a>
+
+
+    <div id="grid-menu" class="row flex-grid">
+        <article class="box-item post-dcd" itemscope="itemscope"
+                 itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+            <div class="box-body">
+                <div class="tags">
+                    <a href="{{site.baseurl}}/category/dcd">Data-Centric Design</a>
+                    <a href="{{site.baseurl}}/category/material">Materials</a>
+                    <a href="{{site.baseurl}}/category/ifonly">If Only...</a>
+                    <a href="{{site.baseurl}}/category/tutorial">Tutorials</a>
+                    <a href="{{site.baseurl}}/category/event">Events</a>
+                    <a href="{{site.baseurl}}/category/opportunity">Opportunities</a>
+                    <a href="{{site.baseurl}}/aboutus">About us</a>
+                </div>
+            </div>
+        </article>
     </div>
 
-    <div id="grid" class="row flex-grid">
+    <div id="grid-posts" class="row flex-grid">
         {% for post in site.posts %}
         <article class="box-item post-{{post.main-class}}" itemscope="itemscope"
                  itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
