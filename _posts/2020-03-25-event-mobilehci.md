@@ -8,10 +8,10 @@ description: MobileHCI Workshop
 main-class: 'event'
 color:
 tags:
-- graduation
-- orchestrator
-- effective
-- supportive
+- workshop
+- mobile
+- responsible
+- ethics
 categories:
 twitter_text:
 introduction: We will organise a workshop at Mobile HCI 2020 (Oct 5th, Oldenburg, Germany) to discuss how mobile devices can contribute to addressing ethical issues around data-centric design.
