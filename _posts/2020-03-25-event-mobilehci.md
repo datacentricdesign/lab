@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title:  "Ethical Data-Centric Design of Intelligent Behaviour"
-date:   2020-03-24 01:30:13
+date:   2020-03-25 01:30:13
 image: '/assets/img'
 description: MobileHCI Workshop
 main-class: 'event'

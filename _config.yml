@@ -1,5 +1,5 @@
 # Site settings
-title: Data-Centric Design
+title: Data-Centric Design Lab
 description: Using data as a design material
 baseurl: "/lab" # the subpath of your site, e.g. /blog
 url: "https://datacentricdesign.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
@@ -7,7 +7,7 @@ url: "https://datacentricdesign.org" # the base hostname & protocol for your sit
 # User settings
 username: Jacky Bourgeois
 user_description:
-email: jacky@datacentricdesign.org
+email: lab@datacentricdesign.org
 twitter_username: jackybourgeois
 github_username:  jackybourgeois
 gplus_username:  
