@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Adafruit Feathers"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -13,9 +13,6 @@ categories:
 twitter_text:
 introduction: The Adafruit Feather is a complete line of development boards that are both standalone and stackable.
 ---
- 
-The Adafruit Feather is a complete line of development boards that are both 
-standalone and stackable.
 
 ## Bluetooth
 Bluetooth is a wireless technology standard for exchanging data over short 

@@ -10,7 +10,7 @@ layout: post
 comments: true
 title:  "Raspbian"
 date:   2019-09-20 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:

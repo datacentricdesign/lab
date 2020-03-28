@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Digital Twin"
 date: 2020-03-23 21:23:02
-image: '/assets/img/'
+image: 
 description: A tool that builds a comprehensive view of a product in real time
 main-class: 'ifonly'
 color:

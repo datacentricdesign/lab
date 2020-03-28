@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "GPS"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about GPS
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction:
 ---
-
-
 
 # GPS Positional Sensors
 GPS (Global Positioning System) is a global satellite-based radio navigation system, composed of a satellite system that provides geolocation and time information to a GPS receiver anywhere on or near the Earth where there is an unobstructed line of sight to four or more GPS satellites. These signals are relatively weak, and obstacles such as Buildings or mountains can block them.

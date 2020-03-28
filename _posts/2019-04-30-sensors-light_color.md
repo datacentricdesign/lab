@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Light and color sensors"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about light and color
 main-class: 'tutorial'
 color:

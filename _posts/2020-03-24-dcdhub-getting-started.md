@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - Getting Started"
 date:   2020-03-24 01:30:13
-image: '/assets/img/'
+image: 
 description: Getting Started with the DCD Hub
 main-class: 'tutorial'
 color:

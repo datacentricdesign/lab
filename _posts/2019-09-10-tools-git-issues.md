@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Issue Tracking and Flagging"
 date:   2019-09-10 20:30:13
-image: '/assets/img/'
+image: 
 description: Collaborating through Git issues
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: Whenever there is a problem with the code in the repository, it is customary to raise an issue in Github. This will not only allow other contributors to verify this error, but also for them to possibly fix them, and then, tag them as fixed. We will also use this workflow when there is a problem with the code and you want to get some non-presential help from the course instructors.
 ---
-
-Whenever there is a problem with the code in the repository, it is customary to raise an issue in Github. This will not only allow other contributors to verify this error, but also for them to possibly fix them, and then, tag them as fixed. We will also use this workflow when there is a problem with the code and you want to get some non-presential help from the course instructors.
 
 ## Issue basics
 Once again, this workflow is available on the Github website.

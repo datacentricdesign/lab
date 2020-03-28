@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Force Sensing Resistors"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about force sensors
 main-class: 'tutorial'
 color:
@@ -16,6 +16,7 @@ introduction:
 
 
 # Force Sensing Resistors (FSRs)
+
 FSRs are a type of robust polymer thick film (PTF) that decrease in resistance with an increase of force applied to the surface of the sensor. We will be Working with the interlink FSR 406.
 The interlink is part of the single zone FSRs family, with optimized force sensitivity for use in human touch control of electronic devices.
 

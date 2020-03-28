@@ -39,13 +39,15 @@ layout: default
                  itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
             <div class="box-body" style="text-align: center">
                 <div class="tags">
-                    <a href="{{site.baseurl}}/category/dcd">Data-Centric Design</a>
-                    <a href="{{site.baseurl}}/category/material">Materials</a>
-                    <a href="{{site.baseurl}}/category/ifonly">If Only...</a>
-                    <a href="{{site.baseurl}}/category/tutorial">Tutorials</a>
-                    <a href="{{site.baseurl}}/category/event">Events</a>
-                    <a href="{{site.baseurl}}/category/opportunity">Opportunities</a>
-                    <a href="{{site.baseurl}}/about">About us</a>
+                    <a href="{{site.baseurl}}/category/dcd" style="color: #7AAB13;border-color: #7AAB13;">Data-Centric Design</a>
+                    <a href="{{site.baseurl}}/category/material" style="color: #EB7728;border-color: #EB7728">Materials</a>
+                    <a href="{{site.baseurl}}/category/ifonly" style="color: #2DA0C3;border-color: #2DA0C3">If Only...</a>
+                    <a href="{{site.baseurl}}/category/tutorial" style="color: #7D669E;border-color: #7D669E">Tutorials</a>
+                    <a href="{{site.baseurl}}/category/event" style="color: #B31917;border-color: #B31917">Events</a>
+                    <a href="{{site.baseurl}}/category/opportunity" style="color: #637a91;border-color: #637a91">Opportunities</a>
+                    <a href="{{site.baseurl}}/category/education" style="color: #215c31;border-color: #215c31">Education</a>
+                    <a href="{{site.baseurl}}/category/education" style="color: #D6BA32;border-color: #D6BA32">Projects</a>
+                    <a href="{{site.baseurl}}/about" style="color: #000000;border-color: #000000">About us</a>
                 </div>
             </div>
         </article>
@@ -68,6 +70,12 @@ layout: default
                         {{ post.title }}
                     </h2>
                 </a>
+                {% if post.youtube != null %}
+                <iframe width="100%" src="https://www.youtube-nocookie.com/embed/{{post.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% elsif post.image != null %}
+                <img src="{{site.baseurl}}/assets/img/{{post.image}}" style="max-width: 100%" alt="{{post.title}}"/>
+                {% endif %}
+
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <p class="description">{{ post.introduction }}</p>
                 </a>

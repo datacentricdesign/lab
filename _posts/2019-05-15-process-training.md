@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Training a Machine Learning algorithm with data from the DCD Hub in Python"
 date:   2019-05-15 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In this post we train a machine learning algorithm with data from the DCD Hub, in Python. We use a Jupyter Notebook to lead you through the training process.
 ---
-
-In this post we train a machine learning algorithm with data from the DCD Hub, in Python. We use a Jupyter Notebook to lead you through the training process.
 
 If you do not have Jupyter yet, you can install it with the following commands in the terminal:
 

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Proximity Sensors"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about proximity
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction:
 ---
-
-# 
 
 ## Infrared Proximity Sensors
 

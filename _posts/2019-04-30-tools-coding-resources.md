@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Coding Resources"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: Here are some suggested website and books to get started with programming environments.
 ---
-
-Here are some suggested website and books to get started with programming environments.
 
 ## Python
 

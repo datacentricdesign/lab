@@ -3,8 +3,8 @@ layout: post
 comments: true
 title:  "Humidity and Temperature Sensors"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
-description: Some info about GPS
+image: 
+description: Some info about humidity and temp
 main-class: 'tutorial'
 color:
 tags: sensor, humidity, temp
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction:
 ---
-
-Some info about humidity and temp
 
 # DHT22 (Humidity and temperature sensor)
 

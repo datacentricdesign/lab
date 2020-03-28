@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Pull Requests"
 date:   2019-09-10 20:30:13
-image: '/assets/img/'
+image: 
 description: Making use of Git pull request
 main-class: 'tutorial'
 color:

@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Current / Voltage"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about current / voltage sensors
 main-class: 'tutorial'
 color:

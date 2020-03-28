@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Internet Status on the Wheel over Bluetooth GATT and Serial"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about vibration motors
 main-class: 'tutorial'
 color:
@@ -11,11 +11,8 @@ tags: communication, wheelchair, bluetooth, GATT, feather
 categories:
 - Wheelchair
 twitter_text:
-introduction:
+introduction: "In this tutorial, we want to communicate the Internet connection status: is the wheelchair connected to the cloud?"
 ---
-
-In this tutorial, we want to communicate the Internet connection status: is
-the wheelchair connected to the cloud?
 
 We will use an RGB diffuse LED as indicator on the wheel. The Raspberry Pi will
 check for the Internet availability. We will create a BLE GATT service to WRITE

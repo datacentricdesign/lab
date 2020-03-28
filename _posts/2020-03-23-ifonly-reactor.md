@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Reactor"
 date: 2020-03-23 21:23:02
-image: '/assets/img/'
+image: 
 description: A tool that triggers event-based action
 main-class: 'ifonly'
 color:

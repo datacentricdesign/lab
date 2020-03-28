@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Graduation project: Donation Experience"
 date:   2020-03-24 01:30:13
-image: '/assets/img/mgp/2020-02-grad-mobile.png'
+image: 'mgp/2020-02-grad-mobile.png'
 description: Graduation Opportunity
 main-class: 'opportunity'
 color:

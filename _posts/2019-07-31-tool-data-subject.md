@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Data Subject"
 date:   2019-07-31 16:30:13
-image: '/assets/img/'
+image: 
 description: Managing data from the DCD Hub
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In this post we introduce how to use the DCD data subject website for visualising data.
 ---
-
-In this post we introduce how to use the DCD data subject website for visualising data.
 
 To access it, go to the [dwd.tudelft.nl/subject](https://dwd.tudelft.nl/subject) and sign in with your DCD Hub credentials.
 

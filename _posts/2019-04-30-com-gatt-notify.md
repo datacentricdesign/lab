@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Sensing over Bluetooth with GATT Notification Service"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -13,8 +13,6 @@ categories:
 twitter_text:
 introduction: In this tutorial we lead you setp-by-step to experience the capabilities of an orientation sensor and set it up on a wheel as a Bluetooth service.
 ---
-
-In this tutorial we lead you setp-by-step to experience the capabilities of an orientation sensor and set it up on a wheel as a Bluetooth service.
 
 1. [Orientation Sensor](#1-orientation-sensors)
 2. [Feather Bluefruit](#2-feather-bluefruit)

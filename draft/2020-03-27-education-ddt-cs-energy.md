@@ -3,9 +3,9 @@ layout: post
 comments: true
 title:  "Video: Energy - Design and Technology Case Study"
 date:   2020-03-27 01:30:13
-image: '/assets/img'
+video: 
 description: Series on Design and Digital Technology
-main-class: 'teaching'
+main-class: 'education'
 color:
 tags:
 - design

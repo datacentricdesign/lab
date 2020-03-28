@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Raspberry Pi"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some Raspberry Pi settings
 main-class: 'tutorial'
 color:
@@ -16,8 +16,6 @@ categories:
 twitter_text:
 introduction:
 ---
-
-
 
 # Set up
 

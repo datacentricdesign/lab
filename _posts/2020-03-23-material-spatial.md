@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: "Spatial"
 date: 2020-03-23 21:23:02
-image: '/assets/img/'
+image: 
 description: Geo Information
 main-class: 'material'
 color:

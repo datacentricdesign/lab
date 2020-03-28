@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "PhD position: Intelligent Tools for Responsible Data-Driven Design"
 date:   2019-10-23 01:30:13
-image: '/assets/img/'
+image: 
 description: PhD position
 main-class: 'opportunity'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: A PhD position is available in the Data and Intelligence section at the Delft Technical University (NL). The research topic is on "Intelligent Tools for Responsible Data-Driven Design" and the position combines research in the Internet of Thing, Machine Learning and Human-Computer Interaction.
 ---
-
-A PhD position is available in the Data and Intelligence section at the Delft Technical University (NL). The research topic is on "Intelligent Tools for Responsible Data-Driven Design" and the position combines research in the Internet of Thing, Machine Learning and Human-Computer Interaction.
 
 * Application: 17 November 2019.
 * Scholarship: 2325 - 2972 euros monthly (full-time basis)

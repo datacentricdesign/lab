@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Proximity, Light, RGB, and Gesture Sensors"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Some info about Proximity, Light, RGB, and Gesture Sensors
 main-class: 'tutorial'
 color:

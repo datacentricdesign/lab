@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - API"
 date:   2020-03-24 01:30:13
-image: '/assets/img/'
+image: 
 description: DCD Hub API
 main-class: 'tutorial'
 color:

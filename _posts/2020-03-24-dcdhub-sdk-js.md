@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - JavaScript SDK"
 date:   2020-03-24 01:30:13
-image: '/assets/img/'
+image: 
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
@@ -11,7 +11,7 @@ tags: sdk, javascript, js, hub
 categories:
 - DCD Hub
 twitter_text:
-introduction:
+introduction: The Javascript SDK facilitates prototyping web apps that connects to the dcd hub.
 ---
 
 # Getting Started

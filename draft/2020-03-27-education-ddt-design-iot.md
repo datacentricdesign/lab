@@ -1,11 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "Video: Design and the Internet of Things"
+title:  "Design and the Internet of Things"
 date:   2020-03-27 01:30:13
-image: '/assets/img'
+video: 
 description: Series on Design and Digital Technology
-main-class: 'teaching'
+main-class: 'education'
 color:
 tags:
 - design
@@ -16,5 +16,3 @@ categories:
 twitter_text:
 introduction: 
 ---
-
-

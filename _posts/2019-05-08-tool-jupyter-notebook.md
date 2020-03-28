@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Exploring Data with Jupyter Notebook"
 date:   2019-05-08 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In this post we introduce Jupyter Notebook as a way to explore data from the DCD Hub.
 ---
-
-In this post we introduce Jupyter Notebook as a way to explore data from the DCD Hub.
 
 Note: if you use Anaconda, Jupyter Notebook is likely to be installed already.
 

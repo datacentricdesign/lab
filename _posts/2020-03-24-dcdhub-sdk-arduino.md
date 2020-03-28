@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - Arduino SDK"
 date:   2020-03-24 01:30:13
-image: '/assets/img/'
+image: 
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
@@ -11,10 +11,8 @@ tags: sdk, arduino, hub
 categories:
 - DCD Hub
 twitter_text:
-introduction:
+introduction: The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
 ---
-
-The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
 
 # Getting Started
 

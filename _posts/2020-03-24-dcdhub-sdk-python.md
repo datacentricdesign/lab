@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - Python SDK"
 date:   2020-03-24 01:30:13
-image: '/assets/img/'
+image: 
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
@@ -11,10 +11,8 @@ tags: sdk, python, hub
 categories:
 - DCD Hub
 twitter_text:
-introduction:
+introduction: The Python SDK facilitates interaction with the Data-Centric Design Hub.
 ---
-
-The Python SDK facilitates interaction with the Data-Centric Design Hub.
 
 # Getting Started
 

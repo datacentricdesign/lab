@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Rotation to Vibration over Bluetooth GATT and Serial"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -13,8 +13,6 @@ categories:
 twitter_text:
 introduction: In this tutorial we lead you step-by-step to implement a Bluetooth GATT service.
 ---
-
-In this tutorial we lead you step-by-step to implement a Bluetooth GATT service.
 
 At the end of tutorial '[GATT Notify](/lab/2019/04/30/com-gatt-notify)',
 we were able to register to a BLE GATT service on the Feather 32u4 placed on the

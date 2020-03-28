@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Automatically Labelling Data at Collection Time in Python"
 date:   2019-05-08 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In this post, we explore how to set up a Python script to automatically labelling data at collection time in Python. The script prompts the user with the classes to perform and associates the corresponding label to the recorded data.
 ---
-
-In this post, we explore how to set up a Python script to automatically labelling data at collection time in Python. The script prompts the user with the classes to perform and associates the corresponding label to the recorded data.
 
 It is useful to collect a dataset ready for training a machine learning algorithm.
 

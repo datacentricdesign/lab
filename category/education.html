@@ -20,6 +20,11 @@ main-class: 'education'
                                 {{ post.title }}
                             </h2>
                         </a>
+                        {% if post.youtube != null %}
+                        <iframe width="100%" src="https://www.youtube-nocookie.com/embed/{{post.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        {% elsif post.image != null %}
+                        <img src="{{site.baseurl}}/assets/img/{{post.image}}" style="max-width: 100%" alt="{{post.title}}"/>
+                        {% endif %}
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                             <p class="description">{{ post.introduction }}</p>
                         </a>

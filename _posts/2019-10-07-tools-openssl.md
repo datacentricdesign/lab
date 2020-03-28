@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Generate Public/Private keys"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: Building a small web application
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In order to push data on the platform, you need to share its public key with the server. This public key enables the server to authenticate messages coming from your thing. For this we use the tool openssl.
 ---
-
-In order to push data on the platform, you need to share its public key with the server. This public key enables the server to authenticate messages coming from your thing. For this we use the tool openssl.
 
 In the terminal, type in the following command to generate a private key. The private
 key is saved saved in private.pem.

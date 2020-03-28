@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Serial to DCD Hub with Arduino, Raspberry Pi and FSR"
 date:   2019-04-30 01:30:13
-image: '/assets/img/'
+image: 
 description: 
 main-class: 'tutorial'
 color:
@@ -12,8 +12,6 @@ categories:
 twitter_text:
 introduction: In this tutorial we lead you toward sensing data over serial. We will collect data coming out of a Force Sensitive Resistor.
 ---
-
-In this tutorial we lead you toward sensing data over serial. We will collect data coming out of a Force Sensitive Resistor.
 
 ## Step 1: Force Sensitive Resistor
 
