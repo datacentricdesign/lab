@@ -4,6 +4,7 @@ comments: true
 title:  "The Internet of Things' Technology Stack"
 date:   2020-03-31 00:00:00
 youtube: videoseries?list=PL3sV9hKiYEP-MVdxCXYfl7vei77xdbJo6
+pdf: dcd-ddt-iot-stack.pdf
 description: Series on Design and Digital Technology
 main-class: 'education'
 color:

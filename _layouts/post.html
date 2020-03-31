@@ -18,6 +18,10 @@
                 <img src="{{site.baseurl}}/assets/img/{{page.image}}" style="max-width: 100%" alt="{{page.title}}"/>
                 {% endif %}
 
+                { if page.pdf != null %}
+                <object width="300" height="200" data="{{site.baseurl}}/assets/pdf/{{page.pdf}}" type="application/pdf"></object>
+                {% endif %}
+
                 {{ content }}
             </article>
 
