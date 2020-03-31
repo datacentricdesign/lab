@@ -19,7 +19,7 @@
                 {% endif %}
 
                 {% if page.pdf != null %}
-                <object width="300" height="200" data="{{site.baseurl}}/assets/img/pdf/{{page.pdf}}" type="application/pdf">PDF not found</object>
+                <object data="{{site.baseurl}}/assets/img/pdf/{{page.pdf}}" type="application/pdf">PDF not found</object>
                 {% endif %}
 
                 {{ content }}
