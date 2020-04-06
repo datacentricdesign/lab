@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "Designing for Home Emerging Electricity Technologies"
 date:   2020-04-06 22:30:00
-youtube: playlist?list=PL3sV9hKiYEP8E-wrdGDefPameW12GsQOY
+youtube: videoseries?list=PL3sV9hKiYEP8E-wrdGDefPameW12GsQOY
 description: Series on Design and Digital Technology
 main-class: 'education'
 color:
