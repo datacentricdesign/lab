@@ -7,7 +7,10 @@ image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
-tags: sdk, python, hub
+tags:
+- sdk
+- python
+- hub
 categories:
 - DCD Hub
 twitter_text:

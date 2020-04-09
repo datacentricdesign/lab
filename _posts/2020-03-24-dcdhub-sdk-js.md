@@ -3,7 +3,7 @@ layout: post
 comments: true
 title:  "DCD Hub - JavaScript SDK"
 date:   2020-03-24 01:30:13
-image: 'laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
+image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:

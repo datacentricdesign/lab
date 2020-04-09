@@ -3,11 +3,14 @@ layout: post
 comments: true
 title:  "DCD Hub - Arduino SDK"
 date:   2020-03-24 01:30:13
-image: 'laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
+image: 'posts/technology-Marc-Mueller-Pixabay-1784564_1920.jpg'
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
-tags: sdk, arduino, hub
+tags:
+- sdk
+- arduino
+- hub
 categories:
 - DCD Hub
 twitter_text:

@@ -1,12 +1,5 @@
 ---
 layout: post
-title:  "Raspbian"
-date:   2019-09-20 01:30:13 +0000
-categories: [Platform,RaspberryPi,Raspbian]
----
-
----
-layout: post
 comments: true
 title:  "Raspbian"
 date:   2019-09-20 01:30:13
@@ -16,10 +9,10 @@ main-class: 'tutorial'
 color:
 tags:
 - platform
-- "raspberry pi"
-- raspbian
+- "Raspberry Pi"
+- Raspbian
+- platform
 categories:
-- Platform
 twitter_text:
 introduction: 
 ---

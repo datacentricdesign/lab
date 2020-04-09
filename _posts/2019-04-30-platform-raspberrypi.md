@@ -10,9 +10,9 @@ color:
 tags:
 - platform
 - hardware
-- "raspberry pi"
+- platform
+- "Raspberry Pi"
 categories:
-- Platform
 twitter_text:
 introduction:
 ---
