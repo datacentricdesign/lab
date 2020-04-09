@@ -14,6 +14,7 @@ tags:
 - ethics
 categories:
 twitter_text:
+featured: true
 introduction: We will organise a workshop at Mobile HCI 2020 (Oct 5th, Oldenburg, Germany) to discuss how mobile devices can contribute to addressing ethical issues around data-centric design.
 ---
 
