@@ -50,7 +50,7 @@ The Adafruit Feather 32u4 Bluefruit is an 'all-in-one' Arduino-compatible + Blue
 Low Energy(BLTE) board with built in USB and battery charging. It's an Adafruit
 Feather 32u4 with a BTLE module.
 
-![](images/feather_1.png)
+![](/lab/assets/img/posts/feather_1.png)
 
 #### Pins
 1. **BAT** - positive voltage to/from JST jack for optional Li-Po battery;
@@ -127,38 +127,38 @@ to the Arduino IDE.
 
 Inside of the Arduino IDE, we can go to Arduino -> Preferences (circled in red):
 
-![](images/feather_2.png)
+![](/lab/assets/img/posts/feather_2.png)
 
 Once inside the Preferences menu we will have to add an additional Board Manager
 URL. We will do that by pressing the button (circled in Red):
 
-![](images/feather_3.png)
+![](/lab/assets/img/posts/feather_3.png)
 
 Note that each link should be in a separate row (in case you have other board URLs
 installed). The link you should add (without quotes) is:
 "https://adafruit.github.io/arduino-board-index/package_adafruit_index.json".
 
-![](images/feather_4.png)
+![](/lab/assets/img/posts/feather_4.png)
 
 After pressing ok, we can now head into the Boards Manager ( Tools > Board:... >
 Boards Manager...):
 
-![](images/feather_5.png)
+![](/lab/assets/img/posts/feather_5.png)
 
 Once inside we will search "Adafruit", and the Adafruit AVR Boards package should 
 appear. We will then install the latest version. This package contains a bunch of
 AVR boards from Adafruit, including our own Feather:
 
-![](images/feather_6.png)
+![](/lab/assets/img/posts/feather_6.png)
 
 After this, we should have our Adafruit Feather 32u4 Board available in the boards
 submenu option (Tools -> Board:... -> Adafruit Feather 32u4):
 
-![](images/feather_7.png)
+![](/lab/assets/img/posts/feather_7.png)
 
 After selecting it, we should be ready to compile code for, and flash it through
 the Arduino IDE! This board is fully compatible with Arduino, so the code in the
 Arduino examples can be used (with only some minor port and power wiring adaptations,
 as this is a 3.3V board, and also has less ports than the mega) :
 
-![](images/feather_8.png)
+![](/lab/assets/img/posts/feather_8.png)
