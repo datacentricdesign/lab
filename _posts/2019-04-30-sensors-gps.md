@@ -100,8 +100,7 @@ The most common sentences people use are the GPRMC (Global Positioning Recommend
 
 These provide the time, date, latitude, longitude, altitude, estimated land speed, and fix type. Fix type indicates whether the GPS has locked onto the satellite data and received enough data to determine the location (2D fix) or location+altitude (3D fix).
 
-<details><summary>Click this to expand an explanation of the GPRMC sentence.</summary>
-<p>
+* Example of GPRMC sentence
 
 This line is called the RMC (Recommended Minimum) sentence and it has the most useful data. Each chunk of data is separated by a comma.
 
@@ -121,8 +120,6 @@ The geolocation data is in degrees and minutes in the following format: Latitude
 
 * At the end, there is the \*XX data which is used as a data transfer checksum (for transfer error debugging).
 
-</p>
-</details>
 
 #### Echoing Raw GPS Data with the Arduino
 

@@ -26,41 +26,37 @@ If your Python 3 (not Python 2) environment is ready, you can directly skip to s
 Select, download and install the latest version of Python 3 for your system
 <a href="https://www.python.org/downloads/release/python-372/" target="_blank">here</a>.
 
-<details><summary markdown="span">Windows</summary>
-  Once installed, go to 'Start > System > Properties > Advanced System Properties >
-  Environment Variable' In User Variables, double click on 'Path'. At the end of
-  the line, add a semi-colon <b>;</b> (without space), followed by:
+* Only for Windows
 
-  <pre><code>
-  C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37;C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37 \Scripts
-  </code></pre>
+Once installed, go to 'Start > System > Properties > Advanced System Properties >
+Environment Variable' In User Variables, double click on 'Path'. At the end of
+the line, add a semi-colon <b>;</b> (without space), followed by:
 
-  <p>(Replace YOUR_USERNAME with your Windows user name)</p>
+ ```bash
+ C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37;C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37 \Scripts
+```
 
-  <p>Open the Command Prompt to check the installation, by typing in your console:</p>
+(Replace YOUR_USERNAME with your Windows user name)
 
-  <pre><code>
-  python --version
-  </code></pre>
+Open the Command Prompt to check the installation, by typing in your console:
 
-  And verifying that the correct version of python was installed.
-</details>
+```bash
+python --version
+```
 
-
-<details><summary markdown="span">Mac / Linux</summary>
-
-  After installation, open the Terminal to check if it was successful, by typing
-  the following on your console:
+And verifying that the correct version of python was installed.
 
 
-  <pre><code>
-  python3 --version
-  </code></pre>
+* Only for Mac / Linux
 
-  If the correct version of python is shown, the install was successful.
+After installation, open the Terminal to check if it was successful, by typing
+the following on your console:
 
-</details>
+```bash
+python3 --version
+```
 
+If the correct version of python is shown, the install was successful.
 
 ## Step 2: Python Dependencies
 
@@ -68,40 +64,35 @@ In the Python ecosystem, Pip is a tool that manages packages for us. We will use
 it to install and update any Python library our project relies on. You can check
 whether Pip is already install with the following command.
 
-<details><summary markdown="span">Windows</summary>
+* Only for Windows
 
-  Type in:
+Type in:
 
-  <pre><code>
-  python -m pip --version
-  </code></pre>
+```bash
+python -m pip --version
+```
 
-  If it is not found, download the file <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank">get-pip.py</a>
-  and save it (CMD+S or Ctrl+S) in your Downloads folder. In the Atom terminal, type in the
-  following command:
+If it is not found, download the file <a href="https://bootstrap.pypa.io/get-pip.py" target="_blank">get-pip.py</a>
+and save it (CMD+S or Ctrl+S) in your Downloads folder. In the Atom terminal, type in the
+following command:
 
-  <pre><code>
-  python Downloads\get-pip.py
-  </code></pre>
+```bash
+python Downloads\get-pip.py
+```
 
-</details>
+* Only for Mac / Linux
 
+Type in:
 
-<details><summary markdown="span">Mac / Linux</summary>
+```bash
+python3 -m pip --version
+```
 
-  Type in:
+If it is not found, you can install it as follows.
 
-  <pre><code>
-  python3 -m pip --version
-  </code></pre>
-
-  If it is not found, you can install it as follows.
-
-  <pre><code>
-  python3 get-pip.py
-  </code></pre>
-
-</details>
+```bash
+python3 get-pip.py
+```
 
 ## Step 3: Python in Atom
 
@@ -109,26 +100,21 @@ Atom is a software to edit your code, referred to as Integrated Development Envi
 Click [here] if you need to install Atom. The next step is the Python plugin for
 Atom, to get some help specifically for Python in Atom. Go to the terminal and type:
 
-<details><summary markdown="span">Windows</summary>
+* Only for Windows
 
-  Type in:
+Type in:
 
-  <pre><code>
-  python -m pip install 'python-language-server[all]'
-  </code></pre>
+```bash
+python -m pip install 'python-language-server[all]'
+```
 
-</details>
+* Only for Mac / Linux
 
-<details><summary markdown="span">Mac / Linux</summary>
+Type in:
 
-  Type in:
-
-  <pre><code>
-  python3 -m pip install 'python-language-server[all]'
-  </code></pre>
-
-</details>
-
+```bash
+python3 -m pip install 'python-language-server[all]'
+```
 
 When it is installed, on the top menu of Atom, click on *'Packages' >
 'Settings View' > 'Install Packages/Themes'*. Search and install 'atom-ide-ui'
@@ -157,25 +143,21 @@ This is the dependence to Python SDK of the Data-Centric Design Hub.
 
 Open the Atom terminal ('plus' sign in the bottom-left corner) and execute the following command.
 
-<details><summary markdown="span">Windows</summary>
+* Only for Windows
 
-  Type in:
+Type in:
 
-  <pre><code>
-  python -m pip install -r requirements.txt --user
-  </code></pre>
+```bash
+python -m pip install -r requirements.txt --user
+```
 
-</details>
+* Only for Mac / Linux
 
-<details><summary markdown="span">Mac / Linux</summary>
+Type in:
 
-  Type in:
-
-  <pre><code>
-  pip3 install -r requirements.txt --user
-  </code></pre>
-
-</details>
+```bash
+pip3 install -r requirements.txt --user
+```
 
 Here we 'install' the Python dependencies for our project. The option -r indicates
 we provide a file name that contains the required dependencies, the option --user
@@ -289,25 +271,21 @@ print(my_property.to_json())
 
 Let's execute this code. Go to the Atom terminal and type in the following command:
 
-<details><summary markdown="span">Windows</summary>
+* Only for Windows
 
 Type in:
 
-<pre><code>
+```bash
 python random-data.py
-</code></pre>
+```
 
-</details>
-
-<details><summary markdown="span">Mac / Linux</summary>
+* Only for Mac / Linux
 
 Type in:
 
-<pre><code>
+```bash
 python3 random-data.py
-</code></pre>
-
-</details>
+```
 
 If the example runs properly you should see a log generated every two seconds,
 indicating dumb data is being sent to the Hub.

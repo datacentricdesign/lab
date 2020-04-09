@@ -41,11 +41,11 @@ To install these libraries into the Arduino IDE, go to `Arduino IDE -> Tools -> 
 
 On the library manager windows appear on the screen, search for WiFiNINA and install the latest version of the library from there.
 
-![Install WiFiNINA to Arduino Library Manager](/assets/res/arduino_wifiNiNA.png)
+![Install WiFiNINA to Arduino Library Manager](/lab/assets/img/posts/arduino_wifiNiNA.png)
 
 Follow the above same steps to install `ArduinoMqttClient` library and then our `DCD SDK for Arduino`.
 
-![Install DCDHub SDK to Arduino Library Manager](/assets/res/arduino_dcdHub.png)
+![Install DCDHub SDK to Arduino Library Manager](/lab/assets/img/posts/arduino_dcdHub.png)
 
 ## Step 3: Explore one of the given example sketch
 
@@ -120,6 +120,6 @@ The second parameter in the function is your sensor `value`, which you want to u
 
 ## Step 5: Upload the code on the Arduino and open the serial monitor to see the response.
 
-![Output on Arduino Serial](/assets/res/arduino_response.gif)
+![Output on Arduino Serial](/lab/assets/img/posts/arduino_response.gif)
 
 You can check more examples with Accelerometer and FSR Sensor from the Example provided with Arduino DCD hub SDK.
