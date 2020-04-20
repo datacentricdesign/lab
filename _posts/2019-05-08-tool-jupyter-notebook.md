@@ -33,7 +33,7 @@ the Jupyter web interface. Otherwise, a link shows up in the terminal, you can
 copy/paste it in your web browser.
 
 Downloads this Jupyter example to start exploring the your data (right-click and 'Save link As...'):
-[jupyter-analysis.ipynb](https://github.com/datacentricdesign/lab/raw/master/examples/process/jupyter-dcdhub.ipynb)
+[jupyter-analysis.ipynb](https://raw.githubusercontent.com/datacentricdesign/lab/gh-pages/examples/process/training.ipynb)
 
 Back in Jupyter, click on File > Open
 
