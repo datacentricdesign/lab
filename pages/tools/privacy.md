@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: minimal
 title: "Privacy Policy"
 permalink: /tools/privacy
 description: "Privacy Policy"
