@@ -24,4 +24,4 @@ Here's a brief schematic (note, a set of pins means those pins are always connec
 you can see the sets in black, and the mechanism to join them electrically when
 you press the button in red):
 
-![Push Button Schematic](/lab/assets/img/posts/button_1.png)
+![Push Button Schematic](/assets/img/posts/button_1.png)

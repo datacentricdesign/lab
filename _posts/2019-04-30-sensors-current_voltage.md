@@ -29,7 +29,7 @@ High-side and low-side current sensing refers to the placement of the current-se
 * High Side - between the positive supply and the load (whatever is being driven by the circuit);
 * Low Side - between the load and ground.
 
-![](/lab/assets/img/posts/current_voltage_1.png)
+![](/assets/img/posts/current_voltage_1.png)
 
 ### Pins
 1. Ground;
@@ -63,9 +63,9 @@ We'll be making use of all the basic functionalities of this breakout to do some
 
 ##### Schematic
 
-![](/lab/assets/img/posts/current_voltage_2.png)
+![](/assets/img/posts/current_voltage_2.png)
 
 ##### Results
 Now, let's see what our console should look like:
 
-![](/lab/assets/img/posts/current_voltage_1.gif)
+![](/assets/img/posts/current_voltage_1.gif)

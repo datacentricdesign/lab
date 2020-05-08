@@ -23,7 +23,7 @@ If you are connecting several, each must have its own data pin.
 ##Technical Details
 Please use a 4.7 - 10 kΩ medium strength pullup resistor between pins 1 and 2.  
 
-![](/lab/assets/img/posts/humidity_temp_1.png)
+![](/assets/img/posts/humidity_temp_1.png)
 
 * **Pins**
   1. Vcc, connect to 5V;
@@ -48,9 +48,9 @@ To use this sensor with the Arduino, please install the following libraries;
 #### Schematic
 Here's how our example circuit is going to look like:
 
-![](/lab/assets/img/posts/humidity_temp_2.png)
+![](/assets/img/posts/humidity_temp_2.png)
 
 #### Results
 Lets see how the console will look with the finished example:
 
-![](/lab/assets/img/posts/humidity_temp_1.gif)
+![](/assets/img/posts/humidity_temp_1.gif)

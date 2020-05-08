@@ -30,7 +30,7 @@ Go to the pubspec.yaml in the root of the flutter project,  and edit the version
  * The version number (0.2.0)  in this case, where you can edit the the current app version
  * The build number (after the +) - you just need to increase this for the app bundle.
 
-![image-20200324134508781](/lab/assets/img/posts/pubspec.png)
+![image-20200324134508781](/assets/img/posts/pubspec.png)
 
 
 

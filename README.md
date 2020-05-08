@@ -1,3 +1,3 @@
 # Data-Centric Design Lab
 
-See website here: https://datacentricdesign.org/lab
+See website here: https://datacentricdesign.org/

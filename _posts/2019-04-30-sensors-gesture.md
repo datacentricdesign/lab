@@ -17,7 +17,7 @@ introduction:
 
 This breakout has a lot of integrated sensors, and allows the addition of basic gesture sensing (left, up, down, right), RGB color sensing (detect amount of R, G, B light), proximity sensing (how close an object is to the front of the sensor), and Ambient light sensing (how much clear light).
 
-![](/lab/assets/img/posts/apds99603_1.png)
+![](/assets/img/posts/apds99603_1.png)
 
 ### Pins
 1.  Vin, (3-5V);
@@ -43,7 +43,7 @@ This breakout uses the Library Adafruit APDS9960 library.
 In this example we're going to test the gesture features of the board!
 
 ##### Schematic
-![](/lab/assets/img/posts/apds99603_2.png)
+![](/assets/img/posts/apds99603_2.png)
 
 ##### Results
-![](/lab/assets/img/posts/apds99603_3.gif)
+![](/assets/img/posts/apds99603_3.gif)

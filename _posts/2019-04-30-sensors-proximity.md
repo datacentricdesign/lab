@@ -32,7 +32,7 @@ This connector has three wires:
 
 #### Technical Details
 
-![](/lab/assets/img/posts/proximity_1.png)
+![](/assets/img/posts/proximity_1.png)
 
 * Supply voltage  between [4.5 - 5.5]V;
 * Analog output 2.8V (15 cm), to 0.4V(150cm);
@@ -51,11 +51,11 @@ We will make a simple proximity sensor, with continuous distance measurements:
 
 ###### Schematic
 
-![](/lab/assets/img/posts/proximity_2.png)
+![](/assets/img/posts/proximity_2.png)
 ###### Results
 This is how your console should look like!
 
-![](/lab/assets/img/posts/proximity_1.gif)
+![](/assets/img/posts/proximity_1.gif)
 
 
 ## Adafruit APDS9960
@@ -65,7 +65,7 @@ gesture sensing (left, up, down, right), RGB color sensing (detect amount of R,
 G, B light), proximity sensing (how close an object is to the front of the 
 sensor), and Ambient light sensing (how much clear light).
 
-![](/lab/assets/img/posts/apds99603_1.png)
+![](/assets/img/posts/apds99603_1.png)
 
 ### Pins
 1.  Vin, (3-5V);
@@ -89,7 +89,7 @@ This breakout uses the Library Adafruit APDS9960 library.
 In this example we're going to test the proximity features of the board!
 
 ##### Schematic
-![](/lab/assets/img/posts/apds99603_3.png)
+![](/assets/img/posts/apds99603_3.png)
 
 ##### Results
-![](/lab/assets/img/posts/apds99603_1.gif)
+![](/assets/img/posts/apds99603_1.gif)

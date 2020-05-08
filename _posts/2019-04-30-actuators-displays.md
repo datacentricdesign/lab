@@ -29,7 +29,7 @@ as long as the microSD is formatted with Fat16/32.
 
 Lets start by knowing what each pin on the breakout does:
 
-![](/lab/assets/img/posts/display_1.png)
+![](/assets/img/posts/display_1.png)
 
 1. **Lite** - PWM input for the backlight control. Connect to 3-5VDC to turn on,
 to ground to turn it off or, you can PWM for intensity of the blacklight;
@@ -79,13 +79,13 @@ Consisting of 4 signals:
 First of all; MISO, MOSI, and SCK are available in a consistent physical location
 on the ICSP header:
 
-![](/lab/assets/img/posts/display_2.png)
+![](/assets/img/posts/display_2.png)
 
 You can find the places for the headers in this schematic of the Mega, although
 you can also use some (specific) digital pins. the white dot means its the pin
 number 1 of ICSP. You can then refer to these pins as ICSP-1, 2, etc:
 
-![](/lab/assets/img/posts/display_3.png)
+![](/assets/img/posts/display_3.png)
 
 ### Examples
 
@@ -98,11 +98,11 @@ First of all, you will need to install the following two libraries:
 * Adafruit_ST7735 (a library for the display).
 
 #### TFT Screen Graphics Test
-In this [first example](/lab/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino), let's run through all of the available graphics drawing functions of the Adafruit GFX library!
+In this [first example](/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino), let's run through all of the available graphics drawing functions of the Adafruit GFX library!
 
 ##### Schematic
 
-![](/lab/assets/img/posts/display_4.png)
+![](/assets/img/posts/display_4.png)
 
 ###### Pins of the Screen Breakout (left to right):
 * Gnd;
@@ -119,7 +119,7 @@ In this [first example](/lab/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd
 ##### Results
 Once you've run the example program, you should see this in your serial!
 
-![](/lab/assets/img/posts/display_1.gif)
+![](/assets/img/posts/display_1.gif)
 
 #### Display Images on the TFT Screen by using a microSD card
 
@@ -129,15 +129,15 @@ We will use the previous libraries, and Arduino's SD library!
 Start by converting some images to 160x128 24bit color bitmap format, and placing
 them in a FAT16/32 formatted microSD card, and placing that in the SD card holder.
 You can find some bitmap files in the 
-<a href="https://github.com/datacentricdesign/lab/blob/master/examples/actuators/displays/tft_lcd_bitmaps" target="_blank">Example folder</a>
+<a href="https://github.com/datacentricdesign/blob/master/examples/actuators/displays/tft_lcd_bitmaps" target="_blank">Example folder</a>
 , and put those in the SD card
 
-<a href="https://github.com/datacentricdesign/lab/blob/master/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino" target="_blank">TFT LCD Bitmaps Example</a>
+<a href="https://github.com/datacentricdesign/blob/master/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino" target="_blank">TFT LCD Bitmaps Example</a>
 
 
 ##### Schematic
 
-![](/lab/assets/img/posts/display_5.png)
+![](/assets/img/posts/display_5.png)
 
 ###### Pins of the Screen Breakout (left to right):
 * Gnd;
@@ -154,4 +154,4 @@ You can find some bitmap files in the
 #####  Results
 You should see this in your console at the end!
 
-![](/lab/assets/img/posts/display_2.gif)
+![](/assets/img/posts/display_2.gif)

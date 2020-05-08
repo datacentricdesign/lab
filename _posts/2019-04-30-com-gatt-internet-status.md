@@ -19,13 +19,13 @@ check for the Internet availability. We will create a BLE GATT service to WRITE
 (i.e send) commands to the Feather 32u4 on the wheel, to turn on/off the LED
 depending on the internet status.
 
-![](/lab/assets/img/posts/ws3-2.png)
+![](/assets/img/posts/ws3-2.png)
 
 # 1 Diffused LEDs
 
 The first step is to explore how to wire and control a NeoPixel 5mm Diffused LED.
 This is described in the LED page in section 3:
-[/resources/actuators/leds](/lab/2019/04/30/actuators-leds.md#3-neopixel-5mm-diffused-led)
+[/resources/actuators/leds](/2019/04/30/actuators-leds.md#3-neopixel-5mm-diffused-led)
 
 # 2 Internet Connection status
 
@@ -38,7 +38,7 @@ For the DCD Hub, it is /health, you can try in your web browser:
 
 The result should look as follows:
 
-![Health API](/lab/assets/img/posts/health_api.png)
+![Health API](/assets/img/posts/health_api.png)
 
 Notice the two information of the result, a status number (0 if everything is running
 properly) and a message. Let's create a Python script that runs this HTTP request
@@ -99,7 +99,7 @@ data) in contrast with the previous section in which we were READ (i.e. the
 Feather was sending data). Read through the code to understand what it does, then
 flash it on the Feather.
 
-On the Raspberry Pi, you can run [examples/communication/bluetooth/write_gatt.py](https://github.com/datacentricdesign/lab/blob/master/examples/communication/bluetooth/write_gatt.py)
+On the Raspberry Pi, you can run [examples/communication/bluetooth/write_gatt.py](https://github.com/datacentricdesign/blob/master/examples/communication/bluetooth/write_gatt.py)
 This code connect to your Feather via Bluetooth and use the code discussed previously
 to check the connection. If the connection with the DCD Hub can be established, it
 writes on the LED GATT service to turn on the LED, otherwise it writes to turn off

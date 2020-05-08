@@ -67,30 +67,30 @@ has:
 We now want to register an account for a cloud service. We will use the prototype
 from TU Delft IDE's Faculty of the Data-Centric Design Hub. Go to <a href="https://dwd.tudelft.nl/subject" target="_blank">https://dwd.tudelft.nl/subject</a>
 
-![Flowchart Push Button](/lab/assets/img/posts/dcdhub.png)
+![Flowchart Push Button](/assets/img/posts/dcdhub.png)
 
 Sign up as a group with an email address, a name and a password.
 
-![Flowchart Push Button](/lab/assets/img/posts/signup.png)
+![Flowchart Push Button](/assets/img/posts/signup.png)
 
 The sign up process creates an account, then the standard OAuth2 process starts
 with a consent: you need to let the manager access your Things, so that it can
 help you manage them. To do so click "Allow access".
 
-![Flowchart Push Button](/lab/assets/img/posts/consent.png)
+![Flowchart Push Button](/assets/img/posts/consent.png)
 
 Once the consent succeeded, you can click on '+' button and create a first one.
 
-<img src="/lab/assets/img/posts/create_thing_button.png" alt="drawing" width="750"/>
+<img src="/assets/img/posts/create_thing_button.png" alt="drawing" width="750"/>
 
 For example with the name 'my wheelchair', type 'Wheelchair', and a
 description 'An Internet-connected wheelchair'.
 
-<img src="/lab/assets/img/posts/create_thing_dialog.png" alt="drawing" width="750"/>
+<img src="/assets/img/posts/create_thing_dialog.png" alt="drawing" width="750"/>
 
 The process may take a few seconds, as the hub generates an access token for your Thing.
 
-<img src="/lab/assets/img/posts/create_thing_jwt.png" alt="drawing" width="750"/>
+<img src="/assets/img/posts/create_thing_jwt.png" alt="drawing" width="750"/>
 
 **COPY AND SAVE THIS TOKEN** in a text file, it will be shown only once and enables
 your wheelchair to communicate with the hub. You can also save the thing id, but

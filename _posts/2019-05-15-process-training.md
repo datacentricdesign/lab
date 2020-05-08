@@ -55,15 +55,15 @@ python3 -m pip install -r requirements.txt --user
 # Train
 
 Downloads this Jupyter example to start exploring the your data (right-click and 'Save link As...'):
-[training.ipynb](https://github.com/datacentricdesign/lab/raw/master/examples/process/training.ipynb)
+[training.ipynb](https://github.com/datacentricdesign/raw/master/examples/process/training.ipynb)
 
 Back in Jupyter, click on File > Open
 
-![Jupyter Open](/lab/assets/img/posts/jupyter-open.png)
+![Jupyter Open](/assets/img/posts/jupyter-open.png)
 
 Then, click on Upload
 
-![Jupyter Upload](/lab/assets/img/posts/jupyter-upload.png)
+![Jupyter Upload](/assets/img/posts/jupyter-upload.png)
 
 
 # Predict
@@ -156,4 +156,4 @@ while True:
 
 ```
 
-You can find the code of this example [here](https://github.com/datacentricdesign/lab/blob/master/examples/process/predict.py)
+You can find the code of this example [here](https://github.com/datacentricdesign/blob/master/examples/process/predict.py)

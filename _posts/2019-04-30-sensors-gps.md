@@ -18,13 +18,13 @@ GPS (Global Positioning System) is a global satellite-based radio navigation sys
 
 GPS does not require the user to transmit any data, and it operates independently of any telephonic or internet reception, though these technologies can enhance the usefulness of the GPS positioning information.
 
-![](/lab/assets/img/posts/gps_1.gif)
+![](/assets/img/posts/gps_1.gif)
 
 ## Adafruit Ultimate GPS Breakout v3
 
 This breakout is built around the MTK3339 chipset, a high-quality GPS module that can track up to 22 satellites on 66 channels, has an high-sensitivity receiver (-165 dBm tracking), and a built-in antenna. It can do up to 10 location updates a second for high speed, high sensitivity logging or tracking. Power usage is low, at around 20mA during navigation.
 
-![](/lab/assets/img/posts/gps_1.png)
+![](/assets/img/posts/gps_1.png)
 
 ### Pins
 1. **3.3v** - Clean 3.3V output from internal voltage regulator, supplies at least 100mA, if needed;
@@ -66,7 +66,7 @@ The time, date, longitude, latitude, and height is logged every 15 seconds and o
 #### Battery Backup
 This breakout has a built in real time clock (RTC), which can keep track of time even when it power is lost and it doesn't have a fix yet. It can also help reduce fix times, if you expect to have an unreliable power connection(like solar, for example). To use the RTC, we need to attach a battery. There is a spot on the back for a CR1220 sized battery holder. You can use any 12mm coin cell - these are a popular and common form factor:
 
-![](/lab/assets/img/posts/gps_2.png)
+![](/assets/img/posts/gps_2.png)
 
 Once the GPS loses power, it will revert to the factory default for baud rates, configuration, etc. A backup battery will prevent that!
 
@@ -84,7 +84,7 @@ Knowing this, a good way to test it is to wire it directly to the computer via t
 
 ##### Schematic
 
-![](/lab/assets/img/posts/gps_3.png)
+![](/assets/img/posts/gps_3.png)
 
 
 For this example, we'll just flash the Arduino with an empty sketch, turn on the Serial monitor (please select to 9600 baud on the serial monitor window), and watch the GPS "NMEA sentence" output from the module data come in.
@@ -92,7 +92,7 @@ For this example, we'll just flash the Arduino with an empty sketch, turn on the
 ##### Results
 Let's see our console output:
 
-![](/lab/assets/img/posts/gps_3.gif)
+![](/assets/img/posts/gps_3.gif)
 
 **Note** that the data you receive is separated by commas. If you get empty values between the commas, that means that the module doesn't have a fix, and the red LED should be blinking. To get a fix, you should have the module pointed towards the sky uninterrupted for some time, out of a window or preferably outside.
 
@@ -128,13 +128,13 @@ Be very careful in respect to the schematic, as in this case, you'll be connecti
 
 ##### Schematic
 
-![](/lab/assets/img/posts/gps_4.png)
+![](/assets/img/posts/gps_4.png)
 
 
 ##### Results
 Let's see our console output:
 
-![](/lab/assets/img/posts/gps_4.gif)
+![](/assets/img/posts/gps_4.gif)
 
 
 #### Parsing GPS Data with the Arduino
@@ -144,10 +144,10 @@ Be very careful in respect to the schematic, as in this case, you'll be connecti
 
 ##### Schematic
 
-![](/lab/assets/img/posts/gps_4.png)
+![](/assets/img/posts/gps_4.png)
 
 
 ##### Results
 Let's see our console output:
 
-![](/lab/assets/img/posts/gps_5.gif)
+![](/assets/img/posts/gps_5.gif)
