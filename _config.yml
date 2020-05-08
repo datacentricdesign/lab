@@ -39,4 +39,4 @@ links:
     url: /about
 
 # exclude my node related stuff
-exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js']
+exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js', 'examples']
