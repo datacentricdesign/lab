@@ -2,10 +2,8 @@
 layout: minimal
 title: "Privacy Policy"
 permalink: /tools/privacy
-description: "Privacy Policy"
+description: "Last updated: May 8, 2020"
 ---
-
-Last updated: May 8, 2020
 
 This privacy policy ("Policy") describes how we, the [Data-Centric Design Lab](https://datacentricdesign.org), collect,
 use and share personal data of users of our tools:
