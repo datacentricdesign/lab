@@ -1,0 +1,16 @@
+---
+layout: minimal
+title: "Tools"
+permalink: /tools/index.html
+image: '/assets/img/series.png'
+description: "Take a look at our tools!"
+---
+
+{% for tool in site.tools %}
+<h2>
+  <a href="{{ tool.url }}">
+    {{ tool.title }}
+  </a>
+</h2>
+<p>{{ tool.description | markdownify }}</p>
+{% endfor %}

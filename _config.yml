@@ -33,10 +33,17 @@ links:
     url: /
   - title: Series
     url: /series
+  - title: Tools
+    url: /tools
   - title: Tags
     url: /tags
   - title: About Us
     url: /about
+
+collections:
+  tools:
+    output: true
+    sort_by: title
 
 # exclude my node related stuff
 exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js', 'examples']
