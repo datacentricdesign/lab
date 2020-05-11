@@ -7,10 +7,12 @@ description: "Take a look at our courses!"
 ---
 
 {% for course in site.courses %}
+{% if course.type == 'main' %}
 <h2>
     <a href="{{ course.url }}">
         {{ course.title }}
     </a>
 </h2>
 <p>{{ course.description | markdownify }}</p>
+{% if course.type == 'main' %}
 {% endfor %}

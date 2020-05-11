@@ -1,6 +1,6 @@
 ---
 layout: course
-title: "DataBucket"
+title: "Digital Product Development"
 permalink: /courses/bsc-dpd
 description: "Bachelor Course - Industrial Design Engineering"
 type: main
