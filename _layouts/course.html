@@ -15,7 +15,7 @@ layout: compress
 
     <div id="grid-modules" class="row flex-grid">
         {% for module in site.courses %}
-        {% if module-of == page.course-id %}
+        {% if module.module-of == page.course-id %}
         <article class="box-item" itemscope="itemscope" itemprop="blogPost">
             <span class="ribbon">
                 <span>Module</span>
