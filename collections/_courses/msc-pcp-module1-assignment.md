@@ -1,8 +1,8 @@
 ---
 layout: minimal
-title: "Module 1"
+title: "Assignment 1"
 permalink: /courses/msc-pcp/module1/assignment1
 description: "Prototyping Connected Product"
-type: assignment
+assignment-of: id5415-1
 ---
 

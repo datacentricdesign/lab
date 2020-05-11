@@ -1,9 +1,9 @@
 ---
-layout: minimal
+layout: course-module
 title: "Module 8"
 permalink: /courses/bsc-dpd/module8
 description: "Digital Product Development - Module 8"
-type: module
+module-of: io1075
 tags:
 introduction: module 8 introduction...
 ---
