@@ -7,7 +7,7 @@ description: "Take a look at our courses!"
 ---
 
 {% for course in site.courses %}
-{% if course.id != null %}
+{% if course.course-id != null %}
 <h2>
     <a href="{{ course.url }}">
         {{ course.title }}
