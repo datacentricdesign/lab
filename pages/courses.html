@@ -1,0 +1,16 @@
+---
+layout: minimal
+title: "Courses"
+permalink: /courses/index.html
+image: '/assets/img/series.png'
+description: "Take a look at our courses!"
+---
+
+{% for course in site.courses %}
+<h2>
+    <a href="{{ course.url }}">
+        {{ course.title }}
+    </a>
+</h2>
+<p>{{ course.description | markdownify }}</p>
+{% endfor %}

@@ -45,6 +45,9 @@ collections:
   tools:
     output: true
     sort_by: title
+  courses:
+    output: true
+    sort_by: title
 
 # exclude my node related stuff
 exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js', 'examples']
