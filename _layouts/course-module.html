@@ -1,18 +1,24 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/BlogPosting" {% if page.main-class
-      %}class="post-{{ page.main-class }}" {% endif %}>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
 {% include head.html %}
 <body>
 {% include svg-icons.html %}
 {% include header-post.html %}
 <section class="post">
-    {{page.introduction}}
-</section>
 
-<section class="post">
-    <h2>Concepts</h2>
-    <h2>Assignment</h2>
-    <h2>Lab Xp</h2>
+    <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
+        {{page.introduction}}
+
+        <h2>Concepts</h2>
+        <h2>Assignment</h2>
+        <h2>Lab Xp</h2>
+    </article>
+
+    {% include footer.html %}
 </section>
 </body>
 </html>
