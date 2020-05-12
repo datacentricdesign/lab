@@ -3,7 +3,8 @@ layout: minimal
 title: "Code and Objects"
 permalink: /courses/msc-pcp/module1/assignment1
 description: "Assignment"
-assignment-of: id5415-1
+assignment-id: 1
+assignment-of: id5415
 ---
 
 **Goal**:  In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 

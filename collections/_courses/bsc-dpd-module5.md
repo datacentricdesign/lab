@@ -1,6 +1,6 @@
 ---
 layout: course-module
-title: "Module 5"
+title: "Digital Product Business Models"
 permalink: /courses/bsc-dpd/module5
 description: "Digital Product Development - Module 5"
 module-of: io1075

@@ -1,6 +1,6 @@
 ---
 layout: course-module
-title: "Module 3"
+title: "Network Technologies"
 permalink: /courses/bsc-dpd/module3
 description: "Digital Product Development - Module 3"
 module-of: io1075

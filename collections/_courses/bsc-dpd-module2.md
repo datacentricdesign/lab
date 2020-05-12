@@ -1,6 +1,6 @@
 ---
 layout: course-module
-title: "Module 2"
+title: "Software Methods"
 permalink: /courses/bsc-dpd/module2
 description: "Digital Product Development - Module 2"
 module-of: io1075

@@ -1,6 +1,6 @@
 ---
 layout: course-module
-title: "Module 7"
+title: "Responsibility"
 permalink: /courses/bsc-dpd/module7
 description: "Digital Product Development - Module 7"
 module-of: io1075
