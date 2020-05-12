@@ -9,7 +9,7 @@ main-class: 'tutorial'
 color:
 tags:
 - platform
-- "Raspberry Pi"
+- Raspberry Pi
 - Raspbian
 - platform
 categories:

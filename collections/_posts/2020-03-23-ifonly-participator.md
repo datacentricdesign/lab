@@ -7,7 +7,9 @@ image:
 description: A tool that connects designers and end-users
 main-class: 'ifonly'
 color:
-tags: responsible, tool
+tags:
+- responsible
+- tool
 categories:
 - "Wouldn't that be nice?"
 twitter_text:

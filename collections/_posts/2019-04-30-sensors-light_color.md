@@ -7,7 +7,10 @@ image:
 description: Some info about light and color
 main-class: 'tutorial'
 color:
-tags: sensor, light, color
+tags:
+- sensor
+- light
+- color
 categories:
 twitter_text:
 introduction:

@@ -7,7 +7,11 @@ image:
 description: Some info about push button
 main-class: 'tutorial'
 color:
-tags: sensor, actuator, push, button
+tags:
+- sensor
+- actuator
+- push
+- button
 categories:
 twitter_text:
 introduction:

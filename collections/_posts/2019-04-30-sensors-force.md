@@ -7,7 +7,10 @@ image:
 description: Some info about force sensors
 main-class: 'tutorial'
 color:
-tags: sensor, force, FSR
+tags:
+- sensor
+- force
+- FSR
 categories:
 twitter_text:
 introduction:

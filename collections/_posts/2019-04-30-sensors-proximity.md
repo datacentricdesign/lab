@@ -7,7 +7,9 @@ image:
 description: Some info about proximity
 main-class: 'tutorial'
 color:
-tags: sensor, proximity
+tags:
+- sensor
+- proximity
 categories:
 twitter_text:
 introduction:

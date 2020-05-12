@@ -7,7 +7,9 @@ image:
 description: Some info about GPS
 main-class: 'tutorial'
 color:
-tags: sensor, GPS
+tags:
+- sensor
+- GPS
 categories:
 twitter_text:
 introduction:

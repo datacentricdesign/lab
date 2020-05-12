@@ -7,7 +7,12 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: process, ML, label, data, python
+tags:
+- process
+- ML
+- label
+- data
+- Python
 categories:
 twitter_text:
 introduction: In this post we train a machine learning algorithm with data from the DCD Hub, in Python. We use a Jupyter Notebook to lead you through the training process.

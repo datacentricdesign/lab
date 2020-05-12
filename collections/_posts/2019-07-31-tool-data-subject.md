@@ -7,7 +7,9 @@ image:
 description: Managing data from the DCD Hub
 main-class: 'tutorial'
 color:
-tags: tool, visualisation
+tags:
+- tool
+- visualisation
 categories:
 twitter_text:
 introduction: In this post we introduce how to use the DCD data subject website for visualising data.

@@ -7,7 +7,12 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: communication, wheelchair, bluetooth, GATT, feather
+tags:
+- communication
+- wheelchair
+- Bluetooth
+- GATT
+- Feather
 categories:
 - Wheelchair
 twitter_text:

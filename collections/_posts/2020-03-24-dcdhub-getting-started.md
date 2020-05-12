@@ -7,7 +7,8 @@ image:
 description: Getting Started with the DCD Hub
 main-class: 'tutorial'
 color:
-tags: getting started
+tags:
+- getting started
 categories:
 - DCD Hub
 twitter_text:

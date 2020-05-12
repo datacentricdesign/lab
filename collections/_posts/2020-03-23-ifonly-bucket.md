@@ -7,7 +7,9 @@ image:
 description: A tool that ingests live data streams
 main-class: 'ifonly'
 color:
-tags: effective, tool
+tags:
+- effective
+- tool
 categories:
 - "Wouldn't that be nice?"
 twitter_text:

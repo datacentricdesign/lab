@@ -7,7 +7,13 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: process, ML, label, data, python, serial
+tags:
+- process
+- ML
+- label
+- data
+- Python
+- serial
 categories:
 twitter_text:
 introduction: In this post, we explore how to set up a Python script to automatically labelling data at collection time in Python. The script prompts the user with the classes to perform and associates the corresponding label to the recorded data.

@@ -11,7 +11,7 @@ tags:
 - design
 - technology
 - energy
-- "participatory data analysis"
+- Participatory Data Analysis
 - video
 - data
 categories:

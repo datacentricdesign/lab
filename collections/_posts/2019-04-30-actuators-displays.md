@@ -7,7 +7,9 @@ image:
 description: Some info about displays
 main-class: 'tutorial'
 color:
-tags: actuator, display
+tags:
+- actuator
+- display
 categories:
 twitter_text:
 introduction:

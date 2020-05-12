@@ -7,7 +7,12 @@ image:
 description: Some info about Proximity, Light, RGB, and Gesture Sensors
 main-class: 'tutorial'
 color:
-tags: sensor, proximity, light, RGB, Gesture
+tags:
+- sensor
+- proximity
+- light
+- RGB
+- gesture
 categories:
 twitter_text:
 introduction:

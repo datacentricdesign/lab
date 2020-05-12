@@ -7,7 +7,12 @@ image:
 description: Making use of Git pull request
 main-class: 'tutorial'
 color:
-tags: tool, git, github, VCS, project
+tags:
+- tool
+- Git
+- GitHub
+- VCS
+- project
 categories:
 twitter_text:
 introduction: 

@@ -7,7 +7,9 @@ image:
 description: Some info about orientation
 main-class: 'tutorial'
 color:
-tags: sensor, orientation
+tags:
+- sensor
+- orientation
 categories:
 twitter_text:
 introduction:

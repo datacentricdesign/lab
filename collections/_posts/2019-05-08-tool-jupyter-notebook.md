@@ -7,7 +7,10 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: tool, Jupyter, analysis
+tags:
+- tool
+- Jupyter
+- analysis
 categories:
 twitter_text:
 introduction: In this post we introduce Jupyter Notebook as a way to explore data from the DCD Hub.

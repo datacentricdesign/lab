@@ -7,7 +7,9 @@ image:
 description: Building a small web application
 main-class: 'tutorial'
 color:
-tags: tool, ssl, keys
+tags:
+- tool
+- SSL
 categories:
 twitter_text:
 introduction: In order to push data on the platform, you need to share its public key with the server. This public key enables the server to authenticate messages coming from your thing. For this we use the tool openssl.

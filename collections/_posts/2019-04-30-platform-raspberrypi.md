@@ -11,7 +11,7 @@ tags:
 - platform
 - hardware
 - platform
-- "Raspberry Pi"
+- Raspberry Pi
 categories:
 twitter_text:
 introduction:

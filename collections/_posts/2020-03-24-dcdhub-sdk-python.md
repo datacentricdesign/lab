@@ -8,8 +8,8 @@ description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
 tags:
-- sdk
-- python
+- SDK
+- Python
 - hub
 categories:
 - DCD Hub

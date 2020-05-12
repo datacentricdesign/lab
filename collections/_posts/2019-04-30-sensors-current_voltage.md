@@ -7,7 +7,10 @@ image:
 description: Some info about current / voltage sensors
 main-class: 'tutorial'
 color:
-tags: sensor, current, voltage
+tags:
+- sensor
+- current
+- voltage
 categories:
 twitter_text:
 introduction:

@@ -7,7 +7,8 @@ image:
 description: DCD Hub API
 main-class: 'tutorial'
 color:
-tags: api
+tags:
+- api
 categories:
 - DCD Hub
 twitter_text:

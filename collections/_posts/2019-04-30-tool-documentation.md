@@ -7,7 +7,11 @@ image:
 description:
 main-class: 'tutorial'
 color:
-tags: tool, documentation, development, prototype
+tags:
+- tool
+- documentation
+- development
+- prototype
 categories:
 twitter_text:
 introduction: "A key element of your prototype is its documentation: what is it? What can it do and how? The documentation will get people to understand your design, contribute to your code and help you make your prototype useful."

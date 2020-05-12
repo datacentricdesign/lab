@@ -7,7 +7,12 @@ image:
 description: Collaborating through Git issues
 main-class: 'tutorial'
 color:
-tags: tool, git, github, VCS, project
+tags:
+- tool
+- Git
+- GitHub
+- VCS
+- project
 categories:
 twitter_text:
 introduction: Whenever there is a problem with the code in the repository, it is customary to raise an issue in Github. This will not only allow other contributors to verify this error, but also for them to possibly fix them, and then, tag them as fixed. We will also use this workflow when there is a problem with the code and you want to get some non-presential help from the course instructors.

@@ -7,7 +7,11 @@ image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
 description: Interacting with the DCD Hub
 main-class: 'tutorial'
 color:
-tags: sdk, javascript, js, hub
+tags:
+- SDK
+- JavaScript
+- js
+- hub
 categories:
 - DCD Hub
 twitter_text:

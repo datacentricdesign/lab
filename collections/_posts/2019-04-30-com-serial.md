@@ -7,7 +7,12 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: communication, arduino, raspberry Pi, serial, FSR
+tags:
+- communication
+- Arduino
+- Raspberry Pi
+- serial
+- FSR
 categories:
 twitter_text:
 introduction: In this tutorial we lead you toward sensing data over serial. We will collect data coming out of a Force Sensitive Resistor.

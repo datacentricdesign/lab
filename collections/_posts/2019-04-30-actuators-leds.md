@@ -7,7 +7,9 @@ image:
 description: Some info about LEDs
 main-class: 'tutorial'
 color:
-tags: actuator, LED
+tags:
+- actuator
+- LED
 categories:
 twitter_text:
 introduction:

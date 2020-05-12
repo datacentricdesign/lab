@@ -7,7 +7,10 @@ image:
 description: Some info about vibration motors
 main-class: 'tutorial'
 color:
-tags: actuator, vibration, motor
+tags:
+- actuator
+- vibration
+- motor
 categories:
 twitter_text:
 introduction:

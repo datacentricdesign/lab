@@ -7,7 +7,13 @@ image:
 description: 
 main-class: 'tutorial'
 color:
-tags: tools, language, development, python, arduino, c++
+tags:
+- tools
+- language
+- development
+- Python
+- Arduino
+- C++
 categories:
 twitter_text:
 introduction: Here are some suggested website and books to get started with programming environments.

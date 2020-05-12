@@ -12,7 +12,7 @@ tags:
 - technology
 - video
 - data
-- iot
+- IoT
 - responsibility
 categories:
 - "Design and Digital Technology"

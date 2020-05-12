@@ -7,7 +7,10 @@ image:
 description: Some info about humidity and temp
 main-class: 'tutorial'
 color:
-tags: sensor, humidity, temp
+tags:
+- sensor
+- humidity
+- temp
 categories:
 twitter_text:
 introduction:

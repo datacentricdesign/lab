@@ -7,7 +7,10 @@ image:
 description: A tool that helps labeling data streams
 main-class: 'ifonly'
 color:
-tags: effective, labeler, tool
+tags:
+- effective
+- labeler
+- tool
 categories:
 - "Wouldn't that be nice?"
 twitter_text:

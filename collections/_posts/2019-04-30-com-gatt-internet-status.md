@@ -7,7 +7,12 @@ image:
 description: Some info about vibration motors
 main-class: 'tutorial'
 color:
-tags: communication, wheelchair, bluetooth, GATT, feather
+tags:
+- communication
+- wheelchair
+- Bluetooth
+- GATT
+- Feather
 categories:
 - Wheelchair
 twitter_text:

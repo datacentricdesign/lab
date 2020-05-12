@@ -7,7 +7,11 @@ image:
 description: Building a small web application
 main-class: 'tutorial'
 color:
-tags: communication, web, python, flask
+tags:
+- communication
+- web
+- Python
+- Flask
 categories:
 twitter_text:
 introduction: The purpose of this tutorial is to explore the basics of web servers and REST API.
