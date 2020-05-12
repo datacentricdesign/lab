@@ -202,7 +202,7 @@ setInterval(function(){
 ```
 
 You can execute the Javascript script again and check incoming data with
-[DCD data subject](/lab2019/07/31/tool-data-subject).
+[DCD data subject](2019/07/31/tool-data-subject).
 
 Back in the terminal, stop your Javascript script with CMD+C (Ctrl+C).
 

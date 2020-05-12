@@ -166,16 +166,16 @@ current users.
 
 ## Step 5: Connecting a Thing to the Hub
 
-At this stage you need the credentials of the [Thing](/lab/2020/03/24/dcdhub-api.html#Thing) you 
+At this stage you need the credentials of the [Thing](/2020/03/24/dcdhub-api.html#Thing) you 
 want to connect to the hub. If you do not have one yet, please sign in/sign up to
-the DCD Hub and create a [Thing](/lab/2020/03/24/dcdhub-api.html#Thing) following the instructions
-[here](/lab/2020/03/24/dcdhub-api.html#sign-up).
+the DCD Hub and create a [Thing](/2020/03/24/dcdhub-api.html#Thing) following the instructions
+[here](/2020/03/24/dcdhub-api.html#sign-up).
 
 In Atom, right click at the root of your project (left panel) and create a file
 'random-data.py'.
 
 In this file, add the following lines to import the definition of a 
-[Thing](/lab/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/lab/2020/03/24/dcdhub-api.html#property-types)
+[Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/2020/03/24/dcdhub-api.html#property-types)
 from the Python SDK.
 
 ```python
@@ -183,7 +183,7 @@ from dcd.entities.thing import Thing
 from dcd.entities.property import PropertyType
 ```
 
-Then, we set the credential of our [Thing](/lab/2020/03/24/dcdhub-api.html#Thing).
+Then, we set the credential of our [Thing](/2020/03/24/dcdhub-api.html#Thing).
 In Python, it means we look at the environment variables to read the id and
 access token of our thing. To provide these information as environment variable,
 right click at the root of your project (left panel) and create a file '.env'.
@@ -196,7 +196,7 @@ THING_ID=
 THING_TOKEN=
 ```
 
-Note: If your are using [Git](/lab/2019/04/30/tools-git), you do not want to track
+Note: If your are using [Git](/2019/04/30/tools-git), you do not want to track
 the file '.env' with Git as it contains secrets. To avoid any mistake, the file
 .gitignore list all files, folders and extensions to ignore. Create a file '.gitignore'
 and add a new line with '.env'.
@@ -219,7 +219,7 @@ THING_TOKEN = os.environ['THING_TOKEN']
 Note: In Python, any line starting with a '#' is a comment, to help understand
 what the code does but ignored by Python when running the programme.
 
-Next, we can instantiate a [Thing](/lab/2020/03/24/dcdhub-api.html#Thing) with the credentials.
+Next, we can instantiate a [Thing](/2020/03/24/dcdhub-api.html#Thing) with the credentials.
 We store this object in a variable called 'my_thing', which we will use to manage
 our Thing on the DCD Hub.
 
@@ -244,7 +244,7 @@ you just registered your Thing on the DCD Hub, it has only an Id, a name and a t
 print(my_thing.to_json())
 ```
 
-To create a [Property](/lab/2020/03/24/dcdhub-api.html#Property) for our [Thing](/lab/2020/03/24/dcdhub-api.html#Thing),
+To create a [Property](/2020/03/24/dcdhub-api.html#Property) for our [Thing](/2020/03/24/dcdhub-api.html#Thing),
 we can use the method find_or_create_property(). This method takes a property 
 name and a property type as parameters, search for a property of the same name
 in the Thing, and return the property. If no property is found, it requests the 
@@ -258,8 +258,8 @@ my_property = my_thing.find_or_create_property("My Random Property",
                                                PropertyType.THREE_DIMENSIONS)
 ```
 
-Similar to the [Thing](/lab/2020/03/24/dcdhub-api.html#Thing), we can display the details of a 
-[Property](/lab/2020/03/24/dcdhub-api.html#Property) with the method to_json().
+Similar to the [Thing](/2020/03/24/dcdhub-api.html#Thing), we can display the details of a 
+[Property](/2020/03/24/dcdhub-api.html#Property) with the method to_json().
 
 ```python
 # Let's have a look at the property, it should
@@ -332,6 +332,6 @@ defines what is in the condition. Any following line aligned with the if would b
 considered outside the condition.
 
 You can execute the Python script again and check incoming data with
-[DCD data subject](/lab/2019/07/31/tool-data-subject).
+[DCD data subject](/2019/07/31/tool-data-subject).
 
 Back in the Atom terminal, stop your Python script with CMD+C (Ctrl+C).

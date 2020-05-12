@@ -24,7 +24,7 @@ introduction: In this tutorial we lead you setp-by-step to experience the capabi
 
 To get started with this second tutorial, we propose to experience the principles
  and the capabilities of an orientation sensors. Go through the explanation and
- the examples we compiled for the BNO055: [Orientation Sensor](/lab/2019/04/30/sensors-orientation)
+ the examples we compiled for the BNO055: [Orientation Sensor](/2019/04/30/sensors-orientation)
 
 ## 2 Feather Bluefruit
 
@@ -45,11 +45,11 @@ to the cloud, offering more flexibility.
 
 On the wheel, we propose to implement the Feather 32u4, an Arduino-like, Bluetooth
 enabled board by AdaFruit. Have a look at the documentation we compiled to get
-an overview of its capabilities and set up your Arduino IDE: [Feather 32u4](/lab/2019/04/30/platform-feather)
+an overview of its capabilities and set up your Arduino IDE: [Feather 32u4](/2019/04/30/platform-feather)
 
 For this you will also have to install the following libraries: Bluefruit nRF51, and Adafruit Unified Sensor,  which you can do in Sketch -> Include Library -> Manage Libraries:
 
-![](/lab/assets/img/posts/library.png)
+![](/assets/img/posts/library.png)
 
 ## 3 Bluetooth Low Energy (BLE) GATT Service
 
@@ -230,7 +230,7 @@ communication / bluetooth / bno055_gatt</a>
 We can see a simple wiring example using this board, together with an IMU (in our
 case the BNO055):
 
-![](/lab/assets/img/posts/ws2_feather_bno055_wiring.png)
+![](/assets/img/posts/ws2_feather_bno055_wiring.png)
 
 Flash the code on the Feather 32u4 and connect to your orientation service from
 your phone.
@@ -267,7 +267,7 @@ sudo blescan
 Copy the MAC address and paste in your .env file as a new environment variable
 'BLUETOOTH_DEVICE_MAC', for example:
 
-![blescan](/lab/assets/img/posts/ws2_blescan.png)
+![blescan](/assets/img/posts/ws2_blescan.png)
 
 ```bash
 BLUETOOTH_DEVICE_MAC=fb:48:5b:84:36:4a

@@ -14,18 +14,18 @@ twitter_text:
 introduction: In this tutorial we lead you step-by-step to implement a Bluetooth GATT service.
 ---
 
-At the end of tutorial '[GATT Notify](/lab/2019/04/30/com-gatt-notify)',
+At the end of tutorial '[GATT Notify](/2019/04/30/com-gatt-notify)',
 we were able to register to a BLE GATT service on the Feather 32u4 placed on the
 left wheel of the wheelchair to receive orientation and rotation data. In this
 step, we explore how we can use this information to
 reason on the Raspberry Pi, and trigger action on the Arduino Mega.
 
-![](/lab/assets/img/posts/ws3-1.png)
+![](/assets/img/posts/ws3-1.png)
 
 # 1 Vibration pattern
 
 Let's start with a look at the vibration motor describe here:
-[Vibration Motor](/lab/2019/04/30/actuators-vibration_motors)
+[Vibration Motor](/2019/04/30/actuators-vibration_motors)
 
 Building on the couple of examples we provide, write your own vibration pattern.
 
@@ -135,7 +135,7 @@ while True:
 The final step is to control the vibration based on data. In this example, we will
 nudge the wheelchair users when they reach their recommended number of wheel rotations.
 
-To do this, we can start from the example '[GATT Notify](/lab/2019/04/30-com-gatt-notify)', which subscribes to
+To do this, we can start from the example '[GATT Notify](/2019/04/30-com-gatt-notify)', which subscribes to
 orientation and rotation GATT services from the wheel and sends the data to the DCD Hub.
 We remove the subscription to orientation, which is not necessary in this case. We modify
 the handler of rotation data so that we check whether we need to nudge the wheelchair user or not.

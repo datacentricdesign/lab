@@ -55,7 +55,7 @@ In the terminal, execute the Python file to start the web server:
 python3 web/server.py
 ```
 
-![Flask Start](/lab/assets/img/posts/flask_start.png)
+![Flask Start](/assets/img/posts/flask_start.png)
 
 Open a web browser and type in: http://localhost:5000/
 
@@ -137,9 +137,9 @@ be executed.
 
 The following screens shows the List and Create in Postman:
 
-![Postman List](/lab/assets/img/posts/postman_list.png)
+![Postman List](/assets/img/posts/postman_list.png)
 
-![Postman Create](/lab/assets/img/posts/postman_create.png)
+![Postman Create](/assets/img/posts/postman_create.png)
 
 # Web page
 
@@ -162,7 +162,7 @@ Simplifying, the client runs three type of files.
 In your web folder, create a 'static' and 'templates'. In templates, create a file
 'index.html' with the following:
 
-![html base](/lab/assets/img/posts/html_base.png)
+![html base](/assets/img/posts/html_base.png)
 
 The {{ }} signs represents template element to be replace. In this case, Flask will
 replace with the full path of the css file.
@@ -193,7 +193,7 @@ def home():
 Rerunning the script, at the url localhost:5000/home the web browser should show
 the following result:
 
-![Html](/lab/assets/img/posts/html_example.png)
+![Html](/assets/img/posts/html_example.png)
 
 # Visualisation
 
@@ -216,11 +216,11 @@ then 'inspect'. In the inspection tool, select the tab 'Network' and reload the 
 Look in the list for the liquidFillGauge.js, right-click > Copy > Copy Response.
 Finally, paste the content in your project, in static/js/liquidFillGauge.js
 
-![Retrieve local dependencies](/lab/assets/img/posts/html_gauge_example.png)
+![Retrieve local dependencies](/assets/img/posts/html_gauge_example.png)
 
 In gauge.html, replaced the mentioned tag by:
 
-![html_template](/lab/assets/img/posts/html_template.png)
+![html_template](/assets/img/posts/html_template.png)
 
 # Web socket
 

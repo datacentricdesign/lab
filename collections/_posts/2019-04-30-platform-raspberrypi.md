@@ -173,7 +173,7 @@ sudo ./eduroam.sh
 And your network should be connected. 
 To make this script run every time the pi boots up, We must must configure a *service*, 
 that runs a certain command on a pi's startup. You can see how to create and configure 
-service [here](https://datacentricdesign.github.io/lab/2019/09/20/platform-raspbian). 
+service [here](https://datacentricdesign.github.io/2019/09/20/platform-raspbian). 
 
 The following service script logs on eduroam's network using the supplicant file 
 at boot. **Note that** your pi's default username is "pi". Also note that you 
@@ -210,7 +210,7 @@ to your scripts folder in your pi, and create a dotenv file in that same directo
 and put your wheelchair's THING_ID and THING_TOKEN in the .env file: 
 
 **Note that** you need to install the python Hub SDK dependencies in your pi for 
-this script to work, you can review [step 4 of the python sdk tutorial](https://datacentricdesign.github.io/lab/sdk-python) 
+this script to work, you can review [step 4 of the python sdk tutorial](https://datacentricdesign.github.io/sdk-python) 
 (remember your pi is based on linux).
 
 ```bash 
@@ -291,7 +291,7 @@ Then, you will be prompt for the default password. Type in 'raspberry'. Note:
 when you type in the password, no letter appears in the terminal. This is the
 normal behaviour to protect your password.
 
-![SSH Pi](/lab/assets/img/posts/ssh_pi.png)
+![SSH Pi](/assets/img/posts/ssh_pi.png)
 
 Once connected, we want to change the hostname, i.e. the name of your Raspberry Pi
 on the network. By default, it is 'raspberrypi' which is not practical while you
@@ -308,7 +308,7 @@ This command opens the file /etc/hostname in nano. Replace 'raspberrypi' with th
 name of your choice (without space). In the following example, we use the
 hostname 'noisy-wheelchair'.
 
-![Hostname](/lab/assets/img/posts/hostname.png)
+![Hostname](/assets/img/posts/hostname.png)
 
 To save and exist, press Ctrl+X, press Y ()to answer 'Yes' to the question) followed
 by Enter. Similarly, edit the file /etc/hosts and change 'raspberrypi' for the
@@ -318,7 +318,7 @@ same name, e.g. 'noisy-wheelchair'.
 sudo nano /etc/hosts
 ```
 
-![Hosts](/lab/assets/img/posts/hosts.png)
+![Hosts](/assets/img/posts/hosts.png)
 
 Again, save and exit with Ctrl+X, then Y followed by Enter.
 
@@ -343,7 +343,7 @@ accessing your Raspberry Pi.
 sudo passwd
 ```
 
-![Change password](/lab/assets/img/posts/pass.png)
+![Change password](/assets/img/posts/pass.png)
 
 ### 5.4 Installing Requirements
 
@@ -383,7 +383,7 @@ nano .env
 
 Copy your thing id and token, and use /dev/ttyUSB0 as a serial port (there are other serial ports on your raspberry pi you can try, such as ttyS0, ttyACM0).
 
-![Change password](/lab/assets/img/posts/env_file.png)
+![Change password](/assets/img/posts/env_file.png)
 
 Install the requirements with Pip
 

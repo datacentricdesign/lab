@@ -24,13 +24,13 @@ it with the three classes: 'Not Sitting', 'Proper Sitting' and 'Leaning Forward'
 * [Collect and Label](#collect)
 
 
-![Jupyter Example](/lab/assets/img/posts/collect-labelled-data.png)
+![Jupyter Example](/assets/img/posts/collect-labelled-data.png)
 
 # Connect to a Thing
 
 We start with a typical connection to the DCD hub, bringing the Python dependencies
 importing the thing ID and token from the .env file and instantiating an Thing. Refer
-to the [Python SDK (Step 5)](https://datacentricdesign.github.io/lab/python-sdk#step-5-connecting-a-thing-to-the-hub)
+to the [Python SDK (Step 5)](https://datacentricdesign.github.io/python-sdk#step-5-connecting-a-thing-to-the-hub)
 if you did not set up your .env file yet.
 
 ```python

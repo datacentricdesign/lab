@@ -37,9 +37,9 @@ Downloads this Jupyter example to start exploring the your data (right-click and
 
 Back in Jupyter, click on File > Open
 
-![Jupyter Open](/lab/assets/img/posts/jupyter-open.png)
+![Jupyter Open](/assets/img/posts/jupyter-open.png)
 
 Then, click on Upload
 
-![Jupyter Upload](/lab/assets/img/posts/jupyter-upload.png)
+![Jupyter Upload](/assets/img/posts/jupyter-upload.png)
 

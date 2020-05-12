@@ -76,20 +76,20 @@ The sign up process creates an account, then the standard OAuth2 process starts
 with a consent: you need to let the web application access your newly created account,
 so that it can help you it! To do so click "Allow access".
 
-![Consent](/lab/assets/img/posts/consent.png)
+![Consent](/assets/img/posts/consent.png)
 
 Once the consent succeeded, you can click on '+' button and create a first one.
 
-![Create Thing - Button](/lab/assets/img/posts/create_thing_button.png)
+![Create Thing - Button](/assets/img/posts/create_thing_button.png)
 
 For example with the name 'My Connected Prototype', type 'Prototype', and a
 description.
 
-![Create Thing - Dialog](/lab/assets/img/posts/create_thing_dialog.png)
+![Create Thing - Dialog](/assets/img/posts/create_thing_dialog.png)
 
 **The process may take a few seconds**, as the hub generates an access token for your Thing.
 
-![Create Thing - JWT](/lab/assets/img/posts/create_thing_jwt.png)
+![Create Thing - JWT](/assets/img/posts/create_thing_jwt.png)
 
 **COPY AND SAVE THIS TOKEN** in a text file, it will be shown only once and enables
 your wheelchair to communicate with the hub. You can also save the thing id, but
@@ -99,7 +99,7 @@ you can always go back to the manager to retrieve this id.
 
 From here you can continue with the SDK (Software Development Kit) of your choice:
 
-- [Python](https://datacentricdesign.github.io/lab/2020/03/24/dcdhub-sdk-python.html)
-- [Javascript](https://datacentricdesign.github.io/lab/2020/03/24/dcdhub-sdk-js.html)
+- [Python](https://datacentricdesign.github.io/2020/03/24/dcdhub-sdk-python.html)
+- [Javascript](https://datacentricdesign.github.io/2020/03/24/dcdhub-sdk-js.html)
 
 
