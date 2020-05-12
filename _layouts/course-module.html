@@ -11,12 +11,15 @@ layout: compress
 <section class="post">
 
     <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
+        <div style="height: 40px;color: white;background-color: #c95d13;font-weight: bold;text-align: center">
+            Under construction...
+        </div>
         <p>
             {{page.introduction}}
         </p>
         <h2>Concepts</h2>
-        <h2>Assignment</h2>
-        <h2>Lab Xp</h2>
+        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/assignment">Assignment</a></h2>
+        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/labxp">Lab Xp</a></h2>
     </article>
 
     {% include footer.html %}
