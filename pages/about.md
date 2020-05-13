@@ -13,7 +13,7 @@ description: "Data-Centric Design Lab"
 ## Gerd Kortuem
 
 
-## Elvis Andrade Borges
+## Elvis Borges
 
 ## Nirav Malsattar
 
