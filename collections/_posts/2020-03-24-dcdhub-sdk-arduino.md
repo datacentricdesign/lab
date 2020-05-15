@@ -9,7 +9,7 @@ main-class: 'tutorial'
 color:
 tags:
 - sdk
-- arduino
+- Arduino
 - hub
 categories:
 - DCD Hub

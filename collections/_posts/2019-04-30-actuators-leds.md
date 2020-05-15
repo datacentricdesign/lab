@@ -112,7 +112,7 @@ Lets see the pins and what they're for:
 
 ![NeoPixel 5mm Diffused LED](/assets/img/posts/led_12.png)
 
-1. Data In, where we connect our arduino data pin (and a 470 Ω resistor);
+1. Data In, where we connect our Arduino data pin (and a 470 Ω resistor);
 2. Vcc input pin, (5v);
 3. Ground;
 4. Data out, where we can chain several NeoPixel LEDs together(simply connect

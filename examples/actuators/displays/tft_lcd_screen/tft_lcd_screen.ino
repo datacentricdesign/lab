@@ -3,7 +3,7 @@
 #include <Adafruit_ST7735.h> // Hardware-specific library for ST7735 lcd  screen
 #include <SPI.h>             // Library for use of the SPI protocol
 
-// Pins from the breakout board to the arduino
+// Pins from the breakout board to the Arduino
 #define TFT_CS         2 
 #define TFT_RST        3 
 #define TFT_DC         4

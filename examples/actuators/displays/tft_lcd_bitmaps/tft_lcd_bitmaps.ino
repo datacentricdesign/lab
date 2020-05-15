@@ -1,8 +1,8 @@
 // Based on Adafruit spitftbitmap example
 #include <Adafruit_GFX.h>    // Core Adafruit graphics library
 #include <Adafruit_ST7735.h> // Hardware-specific library for out ST7735 tft display
-#include <SPI.h>             // SPI library for arduino
-#include <SD.h>              // SD library for arduino          
+#include <SPI.h>             // SPI library for Arduino
+#include <SD.h>              // SD library for Arduino
 
 // The TFT display and SD card will share the hardware SPI interface.
 // Hardware SPI pins are specific to the Arduino board type and
