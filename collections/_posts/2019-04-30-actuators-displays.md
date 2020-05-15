@@ -131,10 +131,10 @@ We will use the previous libraries, and Arduino's SD library!
 Start by converting some images to 160x128 24bit color bitmap format, and placing
 them in a FAT16/32 formatted microSD card, and placing that in the SD card holder.
 You can find some bitmap files in the 
-<a href="https://github.com/datacentricdesign/blob/master/examples/actuators/displays/tft_lcd_bitmaps" target="_blank">Example folder</a>
+[Example folder](https://github.com/datacentricdesign/lab/blob/master/examples/actuators/displays/tft_lcd_bitmaps)
 , and put those in the SD card
 
-<a href="https://github.com/datacentricdesign/blob/master/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino" target="_blank">TFT LCD Bitmaps Example</a>
+[TFT LCD Bitmaps Example](https://github.com/datacentricdesign/lab/blob/master/examples/actuators/displays/tft_lcd_bitmaps/tft_lcd_bitmaps.ino)
 
 
 ##### Schematic

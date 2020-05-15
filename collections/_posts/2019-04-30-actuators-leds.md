@@ -77,7 +77,7 @@ Let's do some examples with the types of LEDs (and buttons) we have.
 
 ### Simple LED with button switch.
 
-<a href="https://github.com/datacentricdesign/lab/blob/master/examples/actuators/leds/simple/simple.ino" target="_blank">Simple LED example</a>
+[Simple LED example](https://github.com/datacentricdesign/lab/blob/master/examples/actuators/leds/simple/simple.ino)
 
 We'll be making a simple circuit to turn on the LED, with the help of the push button.
 

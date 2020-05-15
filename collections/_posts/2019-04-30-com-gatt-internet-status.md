@@ -104,7 +104,7 @@ data) in contrast with the previous section in which we were READ (i.e. the
 Feather was sending data). Read through the code to understand what it does, then
 flash it on the Feather.
 
-On the Raspberry Pi, you can run [examples/communication/bluetooth/write_gatt.py](https://github.com/datacentricdesign/blob/master/examples/communication/bluetooth/write_gatt.py)
+On the Raspberry Pi, you can run [examples/communication/bluetooth/write_gatt.py](https://github.com/datacentricdesign/lab/blob/master/examples/communication/bluetooth/write_gatt.py)
 This code connect to your Feather via Bluetooth and use the code discussed previously
 to check the connection. If the connection with the DCD Hub can be established, it
 writes on the LED GATT service to turn on the LED, otherwise it writes to turn off

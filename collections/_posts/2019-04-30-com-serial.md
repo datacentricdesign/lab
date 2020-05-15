@@ -42,7 +42,7 @@ The last step is to write a Python code on your laptop to read the Serial input
 from the Arduino and forward them to the Data-Centric Design Hub.
 
 You can find the full example 
-[here](https://github.com/datacentricdesign/blob/master/examples/communication/serial/serial_to_dcdhub.py)
+[here](https://github.com/datacentricdesign/lab/blob/master/examples/communication/serial/serial_to_dcdhub.py)
 
 The following code shows how to open a serial connection.
 
