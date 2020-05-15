@@ -19,8 +19,8 @@ introduction:
 
 Here you can find the recommended tools to get started:
 
-- [The code editors](https://datacentricdesign.github.io/2019/04/30/tool-ide)
-- [Git & GitHub](https://datacentricdesign.github.io/2019/09/10/tools-git)
+- [The code editors](https://datacentricdesign.org/tool-ide)
+- [Git & GitHub](https://datacentricdesign.org/tools-git)
     
 # Step 2: Data-Centric Design Hub
 

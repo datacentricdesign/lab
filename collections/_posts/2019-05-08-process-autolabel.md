@@ -89,7 +89,7 @@ prop_data = my_thing.find_or_create_property(DATA_PROP_NAME, DATA_PROP_TYPE)
 # Serial Connection
 
 To label data coming from the serial port, we can modify the 
-[serial example code](/lab/2019/04/30/com-serial). We first wrap the serial
+[serial example code](/com-serial). We first wrap the serial
 connection into a function. This will facilitate its use in the next section.
 
 ```python

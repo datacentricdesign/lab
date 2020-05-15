@@ -21,7 +21,7 @@ introduction: In this tutorial we lead you toward sensing data over serial. We w
 ## Step 1: Force Sensitive Resistor
 
 Have a look to the following post on FSR to explore this sensor:
-[FSR](/2019/04/30/sensors-force)
+[FSR](/sensors-force)
 
 ## Step 2: Formatting data output
 

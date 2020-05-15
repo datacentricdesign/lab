@@ -173,7 +173,7 @@ sudo ./eduroam.sh
 And your network should be connected. 
 To make this script run every time the pi boots up, We must must configure a *service*, 
 that runs a certain command on a pi's startup. You can see how to create and configure 
-service [here](https://datacentricdesign.github.io/2019/09/20/platform-raspbian). 
+service [here](https://datacentricdesign.org/platform-raspbian). 
 
 The following service script logs on eduroam's network using the supplicant file 
 at boot. **Note that** your pi's default username is "pi". Also note that you 

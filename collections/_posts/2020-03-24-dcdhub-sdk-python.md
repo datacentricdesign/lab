@@ -196,7 +196,7 @@ THING_ID=
 THING_TOKEN=
 ```
 
-Note: If your are using [Git](/2019/04/30/tools-git), you do not want to track
+Note: If your are using [Git](/tools-git), you do not want to track
 the file '.env' with Git as it contains secrets. To avoid any mistake, the file
 .gitignore list all files, folders and extensions to ignore. Create a file '.gitignore'
 and add a new line with '.env'.
@@ -332,6 +332,6 @@ defines what is in the condition. Any following line aligned with the if would b
 considered outside the condition.
 
 You can execute the Python script again and check incoming data with
-[DCD data subject](/2019/07/31/tool-data-subject).
+[DCD data subject](/tool-data-subject).
 
 Back in the Atom terminal, stop your Python script with CMD+C (Ctrl+C).
