@@ -11,9 +11,8 @@ description: "Data-Centric Design Lab"
     <h2><a href="{{ staff_member.link }}">{{ staff_member.name }} - {{ staff_member.position }}</a></h2>
     <p>
         <img src="{{ staff_member.img }}" style="max-width: 250px;float: left;" alt="{{ staff_member.name }}" title="{{ staff_member.name }}"  />   
-        {{ staff_member.content | markdownify }}
+        {{ staff_member.content }}
     </p>
-
 {% endfor %}
 
 <h1>Publications</h1>
