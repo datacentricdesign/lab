@@ -5,6 +5,7 @@ permalink: /about
 description: "Data-Centric Design Lab"
 ---
 
+<h1>People</h1>
 
 {% for staff_member in site.staff_members %}
     <h2><a href="{{ staff_member.link }}">{{ staff_member.name }} - {{ staff_member.position }}</a></h2>
@@ -15,6 +16,7 @@ description: "Data-Centric Design Lab"
 
 {% endfor %}
 
+<h1>Publications</h1>
 
 {% for publication in site.publications %}
 <p>[{{ publication.type }}] {{ publication.authors }}. {{ publication.title }}. {{ publication.venue }}. {{ publication.year }}</p>
