@@ -50,6 +50,13 @@ collections:
   courses:
     output: true
     sort_by: title
+  publications:
+    output: true
+    sort_by: year
+  staff_members:
+    output: true
+    people: true
+    sort_by: name
 
 # exclude my node related stuff
 exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js', 'examples']
