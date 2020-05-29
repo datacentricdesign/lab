@@ -5,6 +5,7 @@ title:  "Data-Centric Design"
 date:   2020-05-26 10:00:00
 description: What do we mean?
 main-class: 'dcd'
+image: '/assets/img/posts/DataCentricDesign.png'
 color:
 tags:
 - design
