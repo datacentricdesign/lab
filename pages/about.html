@@ -15,7 +15,7 @@ description: "Data-Centric Design Lab"
            <a itemprop="name" href="{{ staff_member.link }}">{{ staff_member.name }}</a>
         </h3>
         <p class="desc">{{ staff_member.position }}<br/>{{ staff_member.content }}</p>
-        {% if staff_member.email != null %}
+        {% if staff_member.mail != null %}
         <p><a itemprop="email" class="email" href="mailto:{{ staff_member.mail }}">{{ staff_member.mail }}</a></p>
         {% endif %}
         <!-- <p><a itemprop="github" class="github" href="https://github.com/{{site.github_username}}">github.com/{{site.github_username}}</a></p> -->
