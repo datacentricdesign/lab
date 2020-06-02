@@ -5,7 +5,6 @@ permalink: /courses/msc-pcp/module1
 description: "Prototyping Connected Product - Module 1"
 module-of: id5415
 tags:
-- prototyping
 introduction: In this first module, we will clarify the purpose of a prototype in the context of connected products. Then, we will rely on a demo to extract the components that compose an 'IoT stack'. Finally, we will go through the course objective and practicalities.
 ---
 
