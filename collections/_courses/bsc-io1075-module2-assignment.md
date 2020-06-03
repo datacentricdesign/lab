@@ -1,7 +1,7 @@
 ---
 layout: minimal
 title: "Tools"
-permalink: /courses/bsc-io1075/module1/assignment
+permalink: /courses/bsc-io1075/module2/assignment
 description: "Software-Based Product - Assignment 2"
 assignment-id: 2
 assignment-of: io1075-2

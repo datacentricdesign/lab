@@ -7,13 +7,12 @@ assignment-id: 1
 assignment-of: io1075-1
 ---
 
-**Goal**:  In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 
+**Goal**: In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 
       
 * Programming environment: environment (IDE, Jupyter), code execution
 * Design: state diagrams, class diagrams
 * Code management: - comments, functions
 * Computational concepts: variables, types, boolean expression, objects, control flow
-
 
 # Task 1: Environment
 In this task you will get familiar with a cloud Integrated Development Editor (IDE).
