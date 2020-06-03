@@ -3,7 +3,7 @@ layout: course
 title: "Software-Based Product"
 permalink: /courses/bsc-io1075
 description: "Bachelor Course - Industrial Design Engineering"
-course-id: io1075
+course-id: bsc-io1075
 ---
 
 # Introduction
