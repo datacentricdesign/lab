@@ -5,48 +5,65 @@
         {% include svg-icons.html %}
         {% include header-post.html %}
         <section class="post">
-            <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
-                <p>
-                    {{page.introduction}}
-                </p>
-                <h2>Announcements</h2>
+            
+            <p>
+                {{page.introduction}}
+            </p>
 
-                <p>
-                    After this course, you should be able to:
-                </p>
+            <p>
+                After this course, you should be able to:
+            </p>
 
+            <div id="grid-learning-objectives" class="row flex-grid">
                 {% if page.explain != null %}
-                <p>
-                    <span class="mdi mdi-comment-text-outline"></span> {{page.explain}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-comment-text-outline" style="font-size: 100px"></span>
+                        <p class="description">{{page.explain}}</p>
+                    </div>
+                </article>
                 {% endif %}
                 {% if page.analyse != null %}
-                <p>
-                    <span class="mdi mdi-chart-bar"></span> {{page.analyse}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-chart-bar" style="font-size: 100px"></span>
+                        <p class="description">{{page.analyse}}</p>
+                    </div>
+                </article>
                 {% endif %}
                 {% if page.make != null %}
-                <p>
-                    <span class="mdi mdi-hammer-wrench"></span> {{page.make}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-hammer-wrench" style="font-size: 100px"></span>
+                        <p class="description">{{page.make}}</p>
+                    </div>
+                </article>
                 {% endif %}
                 {% if page.evaluate != null %}
-                <p>
-                    <span class="mdi mdi-test-tube"></span> {{page.evaluate}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-hammer-test-tube" style="font-size: 100px"></span>
+                        <p class="description">{{page.evaluate}}</p>
+                    </div>
+                </article>
                 {% endif %}
                 {% if page.specify != null %}
-                <p>
-                    <span class="mdi mdi-pencil-ruler"></span> {{page.specify}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-hammer-pencil-ruler" style="font-size: 100px"></span>
+                        <p class="description">{{page.specify}}</p>
+                    </div>
+                </article>
                 {% endif %}
                 {% if page.collaborate != null %}
-                <p>
-                    <span class="mdi mdi-share-variant"></span> {{page.collaborate}}
-                </p>
+                <article class="box-item">
+                    <div class="box-body">
+                        <span class="mdi mdi-hammer-share-variant" style="font-size: 100px"></span>
+                        <p class="description">{{page.collaborate}}</p>
+                    </div>
+                </article>
                 {% endif %}
-
-            </article>
+            </div>
 
             <div id="grid-modules" class="row flex-grid">
                 {% for module in site.courses %}

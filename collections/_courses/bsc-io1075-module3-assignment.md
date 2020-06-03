@@ -7,17 +7,6 @@ assignment-id: 3
 assignment-of: io1075-3
 ---
 
-**Goal**:  In this assignment, you will connect to the world! You will develop a connected doorbell, establishing a connection between a button and a speaker, and back with a button and an opening mechanism. 
-      
-* Programming environment: environment (IDE, Jupyter), code execution
-* Design: state diagrams, class diagrams
-* Code management: - comments, functions
-* Computational concepts: variables, types, boolean expression, objects, control flow
-
-# Task 1:
-
-## Step 1.1:
-
 
 Assignment 3: Network communication (Week topic: Network Technology)
 Goal: 
