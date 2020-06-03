@@ -10,13 +10,15 @@ layout: compress
 {% include header-post.html %}
 <section class="post">
 
-    <p>
-        {{page.introduction}}
-    </p>
-
-    <p>
-        After this module, you should be able to:
-    </p>
+    <article id="intro-module" class="post-content">
+        <p>
+            {{page.introduction}}
+        </p>
+    
+        <p>
+            After this module, you should be able to:
+        </p>
+    </article>
 
     <div id="grid-learning-objectives" class="row flex-grid">
         {% if page.explain != null %}

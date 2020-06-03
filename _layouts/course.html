@@ -6,13 +6,16 @@
         {% include header-post.html %}
         <section class="post">
             
-            <p>
-                {{page.introduction}}
-            </p>
+            
+            <article id="intro-course" class="post-content">
+                <p>
+                    {{page.introduction}}
+                </p>
 
-            <p>
-                After this course, you should be able to:
-            </p>
+                <p>
+                    After this course, you should be able to:
+                </p>
+            </article>
 
             <div id="grid-learning-objectives" class="row flex-grid">
                 {% if page.explain != null %}
