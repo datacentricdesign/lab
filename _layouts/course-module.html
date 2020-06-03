@@ -15,28 +15,40 @@ layout: compress
         <p>
             {{page.introduction}}
         </p>
-        
+
         <p>
-            After this course, you should be able to:
+            After this module, you should be able to:
         </p>
 
         {% if page.explain != null %}
-        <span class="mdi mdi-comment-text-outline"></span> {{page.explain}}
+        <p>
+            <span class="mdi mdi-comment-text-outline"></span> {{page.explain}}
+        </p>
         {% endif %}
         {% if page.analyse != null %}
-        <span class="mdi mdi-chart-bar"></span> {{page.analyse}}
+        <p>
+            <span class="mdi mdi-chart-bar"></span> {{page.analyse}}
+        </p>
         {% endif %}
         {% if page.make != null %}
-        <span class="mdi mdi-hammer-wrench"></span> {{page.make}}
+        <p>
+            <span class="mdi mdi-hammer-wrench"></span> {{page.make}}
+        </p>
         {% endif %}
         {% if page.evaluate != null %}
-        <span class="mdi mdi-test-tube"></span> {{page.evaluate}}
+        <p>
+            <span class="mdi mdi-test-tube"></span> {{page.evaluate}}
+        </p>
         {% endif %}
         {% if page.specify != null %}
-        <span class="mdi mdi-pencil-ruler"></span> {{page.specify}}
+        <p>
+            <span class="mdi mdi-pencil-ruler"></span> {{page.specify}}
+        </p>
         {% endif %}
         {% if page.collaborate != null %}
-        <span class="mdi mdi-share-variant"></span> {{page.collaborate}}
+        <p>
+            <span class="mdi mdi-share-variant"></span> {{page.collaborate}}
+        </p>
         {% endif %}
 
         <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/assignment">Assignment</a></h2>
