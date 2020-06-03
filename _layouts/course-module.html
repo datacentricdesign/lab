@@ -11,18 +11,33 @@ layout: compress
 <section class="post">
 
     <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
-        <div style="padding:20px;color: white;background-color: #c95d13;font-weight: bold;text-align: center">
-            Under construction...
-        </div>
+
         <p>
             {{page.introduction}}
         </p>
         
-        Explain <span class="mdi mdi-comment-text-outline"></span>
-        Analyse <span class="mdi mdi-chart-bar"></span>
-        Make <span class="mdi mdi-hammer-wrench"></span>
-        Evaluate <span class="mdi mdi-test-tube"></span>
-        Specify <span class="mdi mdi-pencil-ruler"></span>
+        <p>
+            After this course, you should be able to:
+        </p>
+
+        {% if page.explain != null %}
+        <span class="mdi mdi-comment-text-outline"></span> {{page.explain}}
+        {% endif %}
+        {% if page.analyse != null %}
+        <span class="mdi mdi-chart-bar"></span> {{page.analyse}}
+        {% endif %}
+        {% if page.make != null %}
+        <span class="mdi mdi-hammer-wrench"></span> {{page.make}}
+        {% endif %}
+        {% if page.evaluate != null %}
+        <span class="mdi mdi-test-tube"></span> {{page.evaluate}}
+        {% endif %}
+        {% if page.specify != null %}
+        <span class="mdi mdi-pencil-ruler"></span> {{page.specify}}
+        {% endif %}
+        {% if page.collaborate != null %}
+        <span class="mdi mdi-share-variant"></span> {{page.collaborate}}
+        {% endif %}
 
         <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/assignment">Assignment</a></h2>
         <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/labxp">Lab Xp</a></h2>

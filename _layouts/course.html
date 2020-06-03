@@ -6,13 +6,35 @@
         {% include header-post.html %}
         <section class="post">
             <article id="post" class="post-content" role="main" itemprop="mainContentOfPage">
-                <!-- <div style="padding:20px;color: white;background-color: #c95d13;font-weight: bold;text-align: center">
-                    Under construction...
-                </div> -->
                 <p>
                     {{page.introduction}}
                 </p>
                 <h2>Announcements</h2>
+
+                <h2>Study Goals</h2>
+                <p>
+                    After this course, you should be able to:
+                </p>
+
+                {% if page.explain != null %}
+                <span class="mdi mdi-comment-text-outline"></span> {{page.explain}}
+                {% endif %}
+                {% if page.analyse != null %}
+                <span class="mdi mdi-chart-bar"></span> {{page.analyse}}
+                {% endif %}
+                {% if page.make != null %}
+                <span class="mdi mdi-hammer-wrench"></span> {{page.make}}
+                {% endif %}
+                {% if page.evaluate != null %}
+                <span class="mdi mdi-test-tube"></span> {{page.evaluate}}
+                {% endif %}
+                {% if page.specify != null %}
+                <span class="mdi mdi-pencil-ruler"></span> {{page.specify}}
+                {% endif %}
+                {% if page.collaborate != null %}
+                <span class="mdi mdi-share-variant"></span> {{page.collaborate}}
+                {% endif %}
+
             </article>
 
             <div id="grid-modules" class="row flex-grid">

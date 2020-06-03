@@ -13,6 +13,6 @@ description: "Take a look at our courses!"
         {{ course.title }}
     </a>
 </h2>
-<p>{{ course.description | markdownify }}</p>
+<p>{{ course.introduction | markdownify }}</p>
 {% endif %}
 {% endfor %}
