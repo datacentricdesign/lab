@@ -1,10 +1,10 @@
 ---
 layout: minimal
 title: "Code and Objects"
-permalink: /courses/msc-pcp/module1/assignment1
-description: "Assignment"
-assignment-id: 1
-assignment-of: id5415
+permalink: /courses/bsc-io1075/module8/assignment
+description: "Software-Based Product - Assignment 8"
+assignment-id: 8
+assignment-of: io1075-8
 ---
 
 **Goal**:  In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 
