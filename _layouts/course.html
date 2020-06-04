@@ -3,7 +3,7 @@
     {% include head.html %}
     <body>
         {% include svg-icons.html %}
-        {% include header-post.html %}
+        {% include header-course.html %}
         <section class="post">
             
             
@@ -98,7 +98,7 @@
                                     {{ module.title }}
                                 </h2>
                             </a>
-                            <img src="/assets/img/courses/io1075/module{{module.module-id}}.svg" style="max-width: 300px;">
+                            <img src="/assets/img/courses/{{module.module-of}}/module{{module.module-id}}.svg" style="max-width: 300px;">
                             <a class="post-link" href="{{ module.url | prepend: site.baseurl }}">
                                 <p class="description">{{ module.introduction }}</p>
                             </a>
