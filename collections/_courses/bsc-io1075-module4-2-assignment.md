@@ -1,7 +1,7 @@
 ---
-layout: minimal
+layout: course-page
 title: "Network Communication"
-permalink: /courses/bsc-io1075/module3/assignment
+permalink: /courses/bsc-io1075/module4/assignment
 description: "Software-Based Product - Assignment 4"
 assignment-id: 4
 assignment-of: bsc-io1075-4

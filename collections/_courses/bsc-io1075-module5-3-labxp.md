@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Data is Alive!"
 permalink: /courses/bsc-io1075/module5/labxp
 description: "Software-Based Product - Lab Experiment 5"

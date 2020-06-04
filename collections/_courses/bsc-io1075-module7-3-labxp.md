@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Code and Objects"
 permalink: /courses/bsc-io1075/module7/labxp
 description: "Software-Based Product - Lab Experiment 7"

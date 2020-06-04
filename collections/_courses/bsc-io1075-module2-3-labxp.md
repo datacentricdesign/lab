@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: ""
 permalink: /courses/bsc-io1075/module2/labxp
 description: "Software-Based Product - Lab Experiment 2"

@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Analytics"
 permalink: /courses/bsc-io1075/module7/assignment
 description: "Software-Based Product - Assignment 7"

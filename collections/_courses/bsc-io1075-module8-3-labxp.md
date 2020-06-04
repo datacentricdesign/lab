@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Hacking the System"
 permalink: /courses/bsc-io1075/module8/labxp
 description: "Software-Based Product - Lab Experiment 8"

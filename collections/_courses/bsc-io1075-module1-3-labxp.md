@@ -1,8 +1,8 @@
 ---
-layout: minimal
+layout: course-page
 title: "Disassembling the GoodNight Lamp"
 permalink: /courses/bsc-io1075/module1/labxp
-description: "Software-Based Product - Lab Experiment"
+description: "Software-Based Product - Lab Experiment 1"
 labxp-of: bsc-io1075-1
 introduction: In this Lab Experiment, you will ‘disassemble’ the software part of the GoodNight Lamp.
 technique:

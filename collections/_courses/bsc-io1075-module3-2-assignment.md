@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Sharing and using code of others"
 permalink: /courses/bsc-io1075/module3/assignment
 description: "Software-Based Product - Assignment 3"

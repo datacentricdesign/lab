@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "APIs"
 permalink: /courses/bsc-io1075/module6/assignment
 description: "Software-Based Product - Assignment 6"

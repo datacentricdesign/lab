@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Testing Code"
 permalink: /courses/bsc-io1075/module3/labxp
 description: "Software-Based Product - Lab Experiment 3"

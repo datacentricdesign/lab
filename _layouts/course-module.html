@@ -82,7 +82,10 @@ layout: compress
             {% endif %}
         </div>
 
-        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/assignment">Assignment</a></h2>
+        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/assignment">
+            <span class="mdi mdi-code-json" style="margin-right: 10px;"></span>
+            Assignment
+        </a></h2>
         {% for module in site.courses %}
         {% assign moduleid = page.module-of | append: '-' | append: page.module-id %}
         {% if module.assignment-of == moduleid %}
@@ -90,25 +93,28 @@ layout: compress
             {{module.introduction}}
         </p>
         <p>
-            <span class="mdi mdi-clipboard-play-outline"></span><b>Programming Environment:</b>
+            <span class="mdi mdi-clipboard-play-outline" style="margin-right: 10px;"></span><b>Programming Environment:</b>
             {{module.prog_environment}}
         </p>
         <p>
-            <span class="mdi mdi-pencil-ruler"></span><b>Design:</b>
+            <span class="mdi mdi-pencil-ruler" style="margin-right: 10px;"></span><b>Design:</b>
             {{module.design}}
         </p>
         <p>
-            <span class="mdi mdi-package-variant"></span><b>Code Management:</b>
+            <span class="mdi mdi-package-variant" style="margin-right: 10px;"></span><b>Code Management:</b>
             {{module.code_management}}
         </p>
         <p>
-            <span class="mdi mdi-code-json"></span><b>Computational Concept:</b>
+            <span class="mdi mdi-puzzle" style="margin-right: 10px;"></span><b>Computational Concept:</b>
             {{module.computational_concept}}
         </p>
         {% endif %}
         {% endfor %}
 
-        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/labxp">Lab Xp</a></h2>
+        <h2><a href="/courses/{{page.module-of}}/module{{page.module-id}}/labxp">
+            <span class="mdi mdi-microscope" style="margin-right: 10px;"></span>
+            Lab Xp
+        </a></h2>
         {% for module in site.courses %}
         {% assign moduleid = page.module-of | append: '-' | append: page.module-id %}
         {% if module.labxp-of == moduleid %}
@@ -116,20 +122,22 @@ layout: compress
             {{module.introduction}}
         </p>
         <p>
-            <span class="mdi mdi-ab-testing"></span><b>Technique:</b>
+            <span class="mdi mdi-ab-testing" style="margin-right: 10px;"></span><b>Technique:</b>
             {{module.technique}}
         </p>
         <p>
-            <span class="mdi mdi-tape-measure"></span><b>Metrics:</b>
+            <span class="mdi mdi-tape-measure" style="margin-right: 10px;"></span><b>Metrics:</b>
             {{module.metrics}}
         </p>
         <p>
-            <span class="mdi mdi-clipboard-text-outline"></span><b>Report:</b>
+            <span class="mdi mdi-clipboard-text-outline" style="margin-right: 10px;"></span><b>Report:</b>
             {{module.report}}
         </p>
         {% endif %}
         {% endfor %}
     </article>
+
+    {% include course-nav.html %}
 
     {% include footer.html %}
 </section>

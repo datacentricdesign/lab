@@ -1,7 +1,7 @@
 ---
-layout: minimal
+layout: course-page
 title: "Data Management"
-permalink: /courses/bsc-io1075/module4/assignment
+permalink: /courses/bsc-io1075/module5/assignment
 description: "Software-Based Product - Assignment 5"
 assignment-id: 5
 assignment-of: bsc-io1075-5

@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Objects and Flows"
 permalink: /courses/bsc-io1075/module2/assignment
 description: "Software-Based Product - Assignment 2"

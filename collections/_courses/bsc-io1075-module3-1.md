@@ -5,6 +5,8 @@ permalink: /courses/bsc-io1075/module3/index.html
 description: "Software-Based Product - Module 3"
 module-id: 3
 module-of: bsc-io1075
+prev: /courses/bsc-io1075/module2
+next: /courses/bsc-io1075/module4
 tags:
 - Agile
 - Lean

@@ -6,11 +6,39 @@
 {% include menu-search.html %}
 
 <header class="header-post" role="banner">
-     <div class="content">
+    <div class="content">
         <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-        <p itemprop="description" class="subtitle">{{ page.description }}</p>
         {% if page.module-id != null %}
+        <p itemprop="description" class="subtitle"><a href="/courses/{{ page.module-of  }}" title="Back to course home">{{ page.description }}</a></p>
         <img src="/assets/img/courses/{{page.module-of}}/module{{page.module-id}}.svg" style="max-width: 300px;">
+        {% elsif page.labxp-of != null %}
+        <p itemprop="description" class="subtitle"><a href="../" title="Back to course home">{{ page.description }}</a></p>
+        <span class="mdi mdi-microscope" style="font-size: 200px;position:absolute;margin: -50px -100px;z-index: -10;"></span>
+        {% elsif page.assignment-of != null %}
+        <p itemprop="description" class="subtitle"><a href="../" title="Back to course home">{{ page.description }}</a></p>
+        <span class="mdi mdi-code-json" style="font-size: 200px;position:absolute;margin: -50px -100px;z-index: -10;"></span>
         {% endif %}
+    </div>
+    <div class="post-nav" style="margin-top: -10px;">
+        <p>
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}">
+                <span class="mdi mdi-chevron-left"></span>{{page.previous.title}}<br>
+                <span style="font-size: small;padding-left:20px">
+                    {{page.previous.description}}
+                </span>
+            </a>
+            {% endif %}
+        </p>
+        <p>
+            {% if page.next.url %}
+            <a href="{{page.next.url}}">
+                {{page.next.title}}<span class="mdi mdi-chevron-right"></span><br>
+                <span style="font-size: small;padding-right:20px">
+                    {{page.next.description}}
+                </span>
+            </a>
+            {% endif %}
+        </p>
     </div>
 </header>

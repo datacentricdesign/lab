@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Cloud xp"
 permalink: /courses/bsc-io1075/module6/labxp
 description: "Software-Based Product - Lab Experiment 6"

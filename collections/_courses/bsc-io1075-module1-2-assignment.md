@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Code and States"
 permalink: /courses/bsc-io1075/module1/assignment
 description: "Software-Based Product - Assignment 1"

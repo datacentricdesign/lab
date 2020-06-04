@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: course-page
 title: "Programming Privacy"
 permalink: /courses/bsc-io1075/module8/assignment
 description: "Software-Based Product - Assignment 8"
