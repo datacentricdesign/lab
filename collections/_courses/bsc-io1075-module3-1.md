@@ -5,13 +5,10 @@ permalink: /courses/bsc-io1075/module3/index.html
 description: "Software-Based Product - Module 3"
 module-id: 3
 module-of: bsc-io1075
-prev: /courses/bsc-io1075/module2
-next: /courses/bsc-io1075/module4
 tags:
 - Agile
 - Lean
 - VCS
-- Test Units
 - Dependencies
 introduction: In this module you will learn about software development methods such as Agile and Lean. You will test the behaviour of lamp shaped in the previous module to ensure its correctness. Then, you will use tools such as dependency managers and version control sytems to organise your code and collaborate.
 explain: Explain the main software development methods

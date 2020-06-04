@@ -1,11 +1,11 @@
 ---
 layout: course-page
-title: "Code and Objects"
+title: "Analytics Dashboard"
 permalink: /courses/bsc-io1075/module7/labxp
 description: "Software-Based Product - Lab Experiment 7"
 labxp-of: bsc-io1075-7
-introduction:
-technique:
+introduction: In this assignment set up an A/B test to validate an hypothesis regarding your GoodNight Lamp. You will then test other group's lamp and come back to yours to interprete the results.
+technique: A/B test
 metrics:
 report:
 ---

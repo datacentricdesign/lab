@@ -12,13 +12,6 @@ code_management: VCS, test unit
 computational_concepts: data structure (arrays, collections), scope
 ---
 
-# Task 1: Test Units
-In this task you will learn how to test your code by writing test units for each function of your code. It will ensure that your code works as expected and remains valid as you develop your code further.
-
-## Task 1.1: Test the LightBulb code
-## Task 1.2: Run a Test
-## Task 1.3: Test the Button code
-
 
 # Task 2: Dependencies
 In this task you will learn how to use code from others, relying on external libraries.

@@ -5,13 +5,11 @@ permalink: /courses/bsc-io1075/index.html
 description: "Bachelor Course - Industrial Design Engineering"
 course-id: bsc-io1075
 introduction: >-
-  This course combines technology and business topics to teach students how to design and develop innovative connected
-  products such as smart thermostat or pay-per-use washing machines. Students will learn about digital business
-  models and value proposition in relation to the specification of a technical product architecture. Students 
-  will be trained to combine the roles of product manager, product designer and product developer to design 
-  and realize a digital prototype that is technically feasible and commercially viable. Students will develop
-  a hands-on understanding of core digital technologies and software development methods, and will apply
-  techniques and practices for iteratively creating, validating and improving software-based products.
+  Welcome to Software-Based Product!
+  
+  In this course you will learn how to design and develop innovative connected products such as the [GoodNight Lamp](http://goodnightlamp.com/). You will learn about digital business models and value proposition in relation to the specification of a technical product architecture. This blended course involves individual programming assignments in Python as a mean to develop your computational thinking, as well as group experiments leading you through scientific techniques.
+  
+  This will prepare you for the roles of product manager, product designer and product developer to design and realize digital prototypes that are technically feasible and commercially viable.
 explain: Explain core concepts related to the realisation of digital products, such as technical architecture, networks, databases, software development methods, business models, web technology and digital responsibility
 specify: Specify algorithm and data structures driving the behaviour of a digital product through pseudo code and UML diagrams
 make: Develop, test and debug software systems in Python 
@@ -21,7 +19,7 @@ evaluate: Apply techniques to experience and evaluate the feasibility and capabi
 ---
 
 
-# Activities
+## Activities
 
 The course follows the blended learning approach.
 

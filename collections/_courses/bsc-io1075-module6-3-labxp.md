@@ -4,7 +4,7 @@ title: "Cloud xp"
 permalink: /courses/bsc-io1075/module6/labxp
 description: "Software-Based Product - Lab Experiment 6"
 labxp-of: bsc-io1075-6
-introduction:
+introduction: In this experiment you will 
 technique:
 metrics:
 report:

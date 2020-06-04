@@ -35,27 +35,13 @@ In this task you will learn more variable types and operations to compare them.
 ## Task 3.3: Add a second button and light bulb (more states and conditions)
 
 
-# Task 4: Code Organisation
+# Task 4: Organise the logic into a function (functions)
 
-In this task you will learn how to use functions and classes to structure your code.
-
-## Task 4.1: Organise the logic into a function (functions)
-## Task 4.2: Organise the states into objects Button and LightBulb (object, classes)
+In this task you will learn how to use functions to structure your code.
 
 
-# Task 5: Control flow and loops
+# Task 5: Specification
 
-In this task you will learn about control flows and loops to define more complex behaviours.
+In this final task you will learn how to specify the structures and behaviours you have implemented through state diagrams
 
-## Task 5.1: Toggles (operators, if statements)
-## Task 5.2: Create a DimmableLightBulb and ColorLightBulb (floats, integers)
-## Task 5.3: Create a Long-press button (functions/methods)
-## Task 5.4: Light bulb patterns: blinking, fading (control loops)
-
-
-# Task 6: Specification
-
-In this final task you will learn how to specify the structures and behaviours you have implemented through class and state diagrams
-
-## Task 6.1: Draw a class diagram
-## Task 6.2: Draw a state diagram
+## Task 5.1: Draw a state diagram

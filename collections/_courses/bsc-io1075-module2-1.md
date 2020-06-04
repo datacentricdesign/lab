@@ -6,10 +6,11 @@ description: "Software-Based Product - Module 2"
 module-id: 2
 module-of: bsc-io1075
 tags:
-- OOP
+- Object-Oriented
 - Control Flow
 - Pseudo Code
-introduction: In this module you will expend you will expend your programming knowledge with object-oriented programming. You will apply these concepts in combination of control flow to shape the behaviour of your lamp such as pulsating and breathing with various colors.
+- Test Units
+introduction: In this module you will expand your programming knowledge with Object-Oriented paradigm. You will apply these concepts in combination with control flow to shape the behaviour of your GoodNight Lamp such as pulsating and breathing with various colors. You will experiment with Test Units in order to validate the behaviour of your Lamp.
 explain:
 make:
 analyse:

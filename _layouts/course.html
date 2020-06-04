@@ -8,11 +8,12 @@
             
             
             <article id="intro-course" class="post-content" role="main" itemprop="mainContentOfPage">
+                
                 <p>
-                    {{page.introduction}}
+                    {{page.introduction  | markdownify}}
                 </p>
 
-                <h1>Goals</h1>
+                <h2>Goals</h2>
 
                 <p>
                     After this course, you should be able to:

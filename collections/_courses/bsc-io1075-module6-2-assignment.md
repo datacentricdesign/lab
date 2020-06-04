@@ -5,7 +5,7 @@ permalink: /courses/bsc-io1075/module6/assignment
 description: "Software-Based Product - Assignment 6"
 assignment-id: 6
 assignment-of: bsc-io1075-6
-introduction: In this assignment, you will develop a connected lighting system enabling remote control and automated scenarios controlled by sensors.
+introduction: In this assignment you will write against the smartphone app API to control the GoodNight Lamp based on smartphone data.
 prog_environment: "-"
 design:  "-"
 code_management: "-"
