@@ -1,18 +1,16 @@
 ---
 layout: minimal
-title: "Code and Objects"
+title: "Code and States"
 permalink: /courses/bsc-io1075/module1/assignment
 description: "Software-Based Product - Assignment 1"
 assignment-id: 1
-assignment-of: io1075-1
+assignment-of: bsc-io1075-1
+introduction: In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 
+prog_environment: environment (IDE, Jupyter), code execution
+design: state diagrams, class diagrams
+code_management: comments, functions
+computational_concepts: variables, types, boolean expression, objects, control flow
 ---
-
-**Goal**: In this assignment, you will get started with programming through the development of a traditional lighting system, including switches, dimmers and light bulbs. 
-      
-* Programming environment: environment (IDE, Jupyter), code execution
-* Design: state diagrams, class diagrams
-* Code management: - comments, functions
-* Computational concepts: variables, types, boolean expression, objects, control flow
 
 # Task 1: Environment
 In this task you will get familiar with a cloud Integrated Development Editor (IDE).

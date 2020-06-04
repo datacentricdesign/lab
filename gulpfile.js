@@ -12,6 +12,8 @@ var env         = require('minimist')(process.argv.slice(2)),
 	imagemin    = require('gulp-imagemin'),
 	cp          = require('child_process');
 
+browserSync.create();
+
 var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
@@ -90,13 +92,19 @@ gulp.task('watch', function () {
 	gulp.watch('src/js/**/*.js', gulp.series('js'));
 	gulp.watch('src/img/**/*.{jpg,png,gif}', gulp.series('imagemin'));
 	gulp.watch(['**/*.html','index.html', '_includes/*.html', '_layouts/*.html', '_posts/*'], gulp.series('jekyll-rebuild'));
+
+	browserSync.init({
+		server: {
+			baseDir: '_site'
+		}
+	});
 });
 
 /**
  * Default task, running just `gulp` will compile the stylus,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', gulp.series('js', 'stylus', 'browser-sync', 'watch'));
+gulp.task('default', gulp.series('js', 'stylus', 'watch',));
 
 // build to deploy
 gulp.task('build', gulp.series('js', 'stylus', 'jekyll-build'));

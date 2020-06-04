@@ -1,9 +1,13 @@
 ---
 layout: minimal
-title: "Code and Objects"
+title: "Data is Alive!"
 permalink: /courses/bsc-io1075/module5/labxp
 description: "Software-Based Product - Lab Experiment 5"
-labxp-of: io1075-5
+labxp-of: bsc-io1075-5
+introduction:
+technique:
+metrics:
+report:
 ---
 
 **Goal**: 

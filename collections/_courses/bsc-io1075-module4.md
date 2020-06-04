@@ -1,15 +1,18 @@
 ---
 layout: course-module
-title: "Data"
-permalink: /courses/bsc-io1075/module4
+title: "#4 Network Technologies"
+permalink: /courses/bsc-io1075/module4/index.html
 description: "Software-Based Product - Module 4"
+module-id: 4
 module-of: bsc-io1075
 tags:
-introduction: In this module we will give a closer look to data. You will learn the fundamentals of information systems. You will evaluate data quality. The assignment will show you how to store data from your GoodNight Lamp behaviour.
-explain: the concept of data modelling
-make: a piece of Python code that receive and store data
-analyse: timeseries data
-evaluate: the quality of data
-specify: data pipeline of a consumer digital product
+- Protocols
+- Industry Standards
+introduction: In this module you will connect to the world! You will learn the basic jargon of Network technologies. In the lab experiment you will experience how to test the performance of a network. The assignment will enable your GoodNight Lamp to connect with its pair through the Internet.
+explain: Explain the communication models as well as the basics of information encoding and quantities
+make: Develop a simple piece of software that communicate over an TCP and UDP network
+analyse: Analyse network industry standards to compare them within a design goal
+evaluate: Evaluate the performance of a network infrastructure
+specify: Specify network and component interaction with component and sequence diagrams
 ---
 

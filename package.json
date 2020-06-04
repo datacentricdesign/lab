@@ -15,6 +15,10 @@
     "jekyll",
     "js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datacentricdesign/lab"
+  },
   "author": "Jacky Bourgeois",
   "license": "MIT",
   "devDependencies": {

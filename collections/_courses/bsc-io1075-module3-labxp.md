@@ -1,9 +1,13 @@
 ---
 layout: minimal
-title: "Code and Objects"
+title: "Testing Code"
 permalink: /courses/bsc-io1075/module3/labxp
 description: "Software-Based Product - Lab Experiment 3"
-labxp-of: io1075-3
+labxp-of: bsc-io1075-3
+introduction:
+technique: Test Units
+metrics:
+report:
 ---
 
 **Goal**: 

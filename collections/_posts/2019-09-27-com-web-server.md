@@ -168,7 +168,7 @@ In your web folder, create a 'static' and 'templates'. In templates, create a fi
 
 ![html base](/assets/img/posts/html_base.png)
 
-The {{ }} signs represents template element to be replace. In this case, Flask will
+The double curly bracket signs represents template element to be replace. In this case, Flask will
 replace with the full path of the css file.
 
 In the static folder, create a sub folder css with the file style.css:

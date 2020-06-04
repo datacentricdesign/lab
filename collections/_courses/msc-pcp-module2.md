@@ -1,7 +1,7 @@
 ---
 layout: course-module
 title: "Connection"
-permalink: /courses/msc-pcp/module2
+permalink: /courses/msc-pcp/module2/index.html
 description: "Prototyping Connected Product - Module 2"
 module-of: id5415
 tags:

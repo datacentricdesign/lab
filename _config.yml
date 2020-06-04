@@ -1,7 +1,7 @@
 # Site settings
 title: Data-Centric Design Lab
 description: Using data as a design material
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://datacentricdesign.org" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
@@ -49,7 +49,7 @@ collections:
     sort_by: title
   courses:
     output: true
-    sort_by: title
+    sort_by: course-id, module-id
   publications:
     output: true
     sort_by: year

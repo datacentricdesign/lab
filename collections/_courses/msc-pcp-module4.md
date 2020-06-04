@@ -1,7 +1,7 @@
 ---
 layout: course-module
 title: "Adaptation"
-permalink: /courses/msc-pcp/module4
+permalink: /courses/msc-pcp/module4/index.html
 description: "Prototyping Connected Product - Module 4"
 module-of: id5415
 tags:

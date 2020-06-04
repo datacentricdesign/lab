@@ -1,7 +1,7 @@
 ---
 layout: course
 title: "Software-Based Product"
-permalink: /courses/bsc-io1075
+permalink: /courses/bsc-io1075/index.html
 description: "Bachelor Course - Industrial Design Engineering"
 course-id: bsc-io1075
 introduction: >-
@@ -12,11 +12,12 @@ introduction: >-
   and realize a digital prototype that is technically feasible and commercially viable. Students will develop
   a hands-on understanding of core digital technologies and software development methods, and will apply
   techniques and practices for iteratively creating, validating and improving software-based products.
-explain: explain core concepts related to the realisation of  digital products, such as technical architecture, networks, databases, software development methods, business models, web technology and digital responsibility
-specify: specify algorithm and data structures driving the behaviour of a digital product through pseudo code and UML diagrams
-make: develop, test and debug software systems in Python 
-collaborate: work as teams in specifying and developing algorithms and software
-analyse: analyse and evaluate the technical aspects (code, data, network) and business aspects (canvas) of a connected product
+explain: Explain core concepts related to the realisation of digital products, such as technical architecture, networks, databases, software development methods, business models, web technology and digital responsibility
+specify: Specify algorithm and data structures driving the behaviour of a digital product through pseudo code and UML diagrams
+make: Develop, test and debug software systems in Python 
+collaborate: Work as teams in specifying and developing algorithms and software
+analyse: Analyse and evaluate the technical aspects (code, data, network) and business aspects (canvas) of a connected product
+evaluate: Apply techniques to experience and evaluate the feasibility and capabilities of digital technologies
 ---
 
 
@@ -32,4 +33,6 @@ Each week involves:
 - a programming assignment (8hrs) to individually practice coding in the context of a connected home, with gradual complexity
 - a lab experiment (8hrs) to experience in group key techniques and methods covered during the course.
 
-![Weekly Schedule](/assets/img/courses/dpd/weekly-schedule.svg)
+![Weekly Schedule](/assets/img/courses/dpd/weekly-schedule.png)
+
+# Modules

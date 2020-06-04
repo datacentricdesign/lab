@@ -1,9 +1,13 @@
 ---
 layout: minimal
-title: "Code and Objects"
+title: "Network performance"
 permalink: /courses/bsc-io1075/module4/labxp
 description: "Software-Based Product - Lab Experiment 4"
-labxp-of: io1075-4
+labxp-of: bsc-io1075-4
+introduction:
+technique:
+metrics:
+report:
 ---
 
 **Goal**: 

@@ -1,14 +1,19 @@
 ---
 layout: course-module
-title: "Software Methods"
-permalink: /courses/bsc-io1075/module2
+title: "#2 Shaping with Code"
+permalink: /courses/bsc-io1075/module2/index.html
 description: "Software-Based Product - Module 2"
+module-id: 2
 module-of: bsc-io1075
 tags:
-introduction: In this module you will learn about software development methods such as Agile and Lean. You will use tools such as dependency managers and version control sytems to organise your code and collaborate. You will develop and test an algorithm with basic control flow to shape the behaviour of your GoodNight Lamp.
-explain: the main software development methods
-make: organised simple piece of code to distribute and collaborate
-analyse: an error stack to extract hints of the issue
-evaluate: code through unit test
-specify: a software behaviour with flow chart
+- OOP
+- Control Flow
+- Pseudo Code
+introduction: In this module you will expend you will expend your programming knowledge with object-oriented programming. You will apply these concepts in combination of control flow to shape the behaviour of your lamp such as pulsating and breathing with various colors.
+explain:
+make:
+analyse:
+evaluate:
+specify:
 ---
+

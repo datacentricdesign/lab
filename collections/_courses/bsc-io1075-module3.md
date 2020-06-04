@@ -1,15 +1,21 @@
 ---
 layout: course-module
-title: "Network Technologies"
-permalink: /courses/bsc-io1075/module3
+title: "#3 Gearing up"
+permalink: /courses/bsc-io1075/module3/index.html
 description: "Software-Based Product - Module 3"
+module-id: 3
 module-of: bsc-io1075
 tags:
-introduction: In this module you will connect to the world! You will learn the basic jargon of Network technologies. In the lab experiment you will experience how to test the performance of a network. The assignment will enable your GoodNight Lamp to connect with its pair through the Internet.
-explain: the communication models as well as the basics of information encoding and quantities
-make: a simple piece of software that communicate over an TCP and UDP network
-analyse: network industry standards to compare them within a design goal
-evaluate: the performance of a network infrastructure
-specify: network and component interaction with component and sequence diagrams
+- Agile
+- Lean
+- VCS
+- Test Units
+- Dependencies
+introduction: In this module you will learn about software development methods such as Agile and Lean. You will test the behaviour of lamp shaped in the previous module to ensure its correctness. Then, you will use tools such as dependency managers and version control sytems to organise your code and collaborate.
+explain: Explain the main software development methods
+make:
+analyse: Analyse an error stack to extract hints of the issue
+evaluate: Evaluate code through unit test
+specify: Specify a software behaviour with flow chart
+collaborate: Organise simple piece of code to distribute and collaborate
 ---
-
