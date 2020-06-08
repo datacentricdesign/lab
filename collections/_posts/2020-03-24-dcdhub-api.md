@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "DCD Hub - API"
 date:   2020-03-24 01:30:13
 image: 

@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Issue Tracking and Flagging"
 date:   2019-09-10 20:30:13
 image: 

@@ -1,11 +1,12 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Releasing a Flutter App"
 date:   2020-03-24 13:30:00 +0000
 description:
 main-class: 'tutorial'
 color:
+author: /staff_members/elvis
 tags:
 - platform
 - app

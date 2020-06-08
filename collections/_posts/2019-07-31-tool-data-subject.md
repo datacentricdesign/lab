@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Data Subject"
 date:   2019-07-31 16:30:13
 image: 

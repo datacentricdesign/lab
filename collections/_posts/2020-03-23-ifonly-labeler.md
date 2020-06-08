@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title: "Labeler"
 date: 2020-03-23 21:23:02
 image: 

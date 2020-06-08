@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Training a Machine Learning algorithm with data from the DCD Hub in Python"
 date:   2019-05-15 01:30:13
 image: 

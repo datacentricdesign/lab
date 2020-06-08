@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Automatically Labelling Data at Collection Time in Python"
 date:   2019-05-08 01:30:13
 image: 

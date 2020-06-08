@@ -1,12 +1,13 @@
 ---
 layout: post
-comments: true
-title:  "Graduation project: Data Orchestrator"
+comments: false
+title:  "Data Orchestrator"
 date:   2020-03-24 01:30:13
 image: 'mgp/2020-02-grad-orchestrator.png'
 description: Graduation Opportunity
 main-class: 'opportunity'
 color:
+author: /staff_members/jacky
 tags:
 - graduation
 - orchestrator

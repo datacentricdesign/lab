@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Rotation to Vibration over Bluetooth GATT and Serial"
 date:   2019-04-30 01:30:13
 image: 

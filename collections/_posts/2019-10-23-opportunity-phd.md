@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "PhD position: Intelligent Tools for Responsible Data-Driven Design"
 date:   2019-10-23 01:30:13
 image: 

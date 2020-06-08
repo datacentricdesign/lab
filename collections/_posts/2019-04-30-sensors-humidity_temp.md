@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Humidity and Temperature Sensors"
 date:   2019-04-30 01:30:13
 image: 

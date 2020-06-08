@@ -1,12 +1,13 @@
 ---
 layout: post
-comments: true
-title:  "Graduation project: Designing with Confidence"
+comments: false
+title:  "Designing with Confidence"
 date:   2020-03-24 01:30:13
 image: 'mgp/2020-02-grad-confidence.png'
 description: Graduation Opportunity
 main-class: 'opportunity'
 color:
+author: /staff_members/jacky
 tags:
 - graduation
 - responsible

@@ -1,8 +1,0 @@
----
-layout: minimal
-title: "Assignment 1"
-permalink: /courses/msc-pcp/module1/assignment
-description: "Prototyping Connected Product - Assignment 1"
-assignment-of: id5415-1
----
-

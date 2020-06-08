@@ -87,7 +87,7 @@
                 </p>
 
                 <div id="grid-modules" class="row flex-grid">
-                    {% for module in site.courses %}
+                    {% for module in site[page.course-id] %}
                     {% if module.module-of == page.course-id %}
                     <article class="box-item" itemscope="itemscope" itemprop="blogPost">
                         <span class="ribbon">

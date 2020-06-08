@@ -4,15 +4,17 @@ title: "Courses"
 permalink: /courses/index.html
 image: '/assets/img/series.png'
 description: "Take a look at our courses!"
+main-class: 'education'
 ---
 
-{% for course in site.courses %}
-{% if course.course-id != null %}
 <h2>
-    <a href="{{ course.url }}">
-        {{ course.title }}
+    <a href="/courses/io1075/">
+        Software-Based Products
     </a>
 </h2>
-<p>{{ course.introduction | markdownify }}</p>
-{% endif %}
-{% endfor %}
+
+<h2>
+    <a href="/courses/id5415/">
+        Prototyping Connected Products
+    </a>
+</h2>

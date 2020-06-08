@@ -47,9 +47,10 @@ collections:
   tools:
     output: true
     sort_by: title
-  courses:
+  io1075:
     output: true
-    sort_by: course-id, module-id
+  id5415:
+    output: true
   publications:
     output: true
     sort_by: year
@@ -60,3 +61,6 @@ collections:
 
 # exclude my node related stuff
 exclude: ['package.json', 'package-lock.json', 'src', 'node_modules', 'scripts', 'draft', 'gulpfile.js', 'examples']
+
+kramdown:
+  toc_levels: 1..1

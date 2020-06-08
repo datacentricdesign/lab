@@ -1,12 +1,13 @@
 ---
 layout: post
-comments: true
-title:  "Graduation project: Donation Experience"
+comments: false
+title:  "Donation Experience"
 date:   2020-03-24 01:30:13
 image: 'mgp/2020-02-grad-mobile.png'
 description: Graduation Opportunity
 main-class: 'opportunity'
 color:
+author: /staff_members/jacky
 tags:
 - graduation
 - informed

@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Serial to DCD Hub with Arduino, Raspberry Pi and FSR"
 date:   2019-04-30 01:30:13
 image: 

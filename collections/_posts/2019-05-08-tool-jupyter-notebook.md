@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: true
+comments: false
 title:  "Exploring Data with Jupyter Notebook"
 date:   2019-05-08 01:30:13
 image: 

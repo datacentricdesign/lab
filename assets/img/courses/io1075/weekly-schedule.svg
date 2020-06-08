@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#3FA9F5;}
+	.st1{fill:#86C170;}
+	.st2{font-family:'Open Sans', 'sans serif';}
+	.st3{font-size:48px;}
+	.st4{font-size:36px;}
+</style>
+<g>
+	<rect x="424.5" y="60.8" class="st0" width="347" height="458"/>
+</g>
+<g>
+	<rect x="424.5" y="558.8" class="st0" width="347" height="458"/>
+</g>
+<g>
+	<rect x="1148.5" y="60.8" class="st0" width="347" height="458"/>
+</g>
+<g>
+	<rect x="1148.5" y="558.8" class="st0" width="347" height="458"/>
+</g>
+<g>
+	<rect x="786.5" y="60.8" class="st1" width="347" height="458"/>
+</g>
+<g>
+	<rect x="786.5" y="558.8" class="st1" width="347" height="458"/>
+</g>
+<g>
+	<rect x="62.5" y="558.8" class="st1" width="347" height="458"/>
+</g>
+<g>
+	<rect x="1510.5" y="60.8" class="st1" width="347" height="458"/>
+</g>
+<g>
+	<rect x="1510.5" y="558.8" class="st1" width="347" height="458"/>
+</g>
+<g>
+	<rect x="62.5" y="303.8" class="st0" width="347" height="216"/>
+</g>
+<g>
+	<rect x="62.5" y="60.8" class="st0" width="347" height="216"/>
+</g>
+<text transform="matrix(1 0 0 1 467.3384 802.6951)" class="st2 st3">Assignment</text>
+<text transform="matrix(1 0 0 1 1237.3243 802.6953)" class="st2 st3">Lab XP</text>
+<text transform="matrix(1 0 0 1 138.2897 168.817)" class="st2 st3">Self-Study</text>
+<text transform="matrix(1 0 0 1 157.7897 226.4171)" class="st2 st3">Material</text>
+<text transform="matrix(1 0 0 1 122.2467 424.5613)" class="st2 st3">Live Demo</text>
+<text transform="matrix(1 0 0 1 161.1409 1055.8186)" class="st2 st4">Monday</text>
+<text transform="matrix(1 0 0 1 521.6208 1055.8193)" class="st2 st4">Tuesday</text>
+<text transform="matrix(1 0 0 1 855.7859 1055.8176)" class="st2 st4">Wednesday</text>
+<text transform="matrix(1 0 0 1 1237.324 1055.8181)" class="st2 st4">Thursday</text>
+<text transform="matrix(1 0 0 1 1626.1216 1055.8188)" class="st2 st4">Friday</text>
+<text transform="matrix(1 0 0 1 1237.324 303.8175)" class="st2 st3">Lab XP</text>
+<text transform="matrix(1 0 0 1 467.3379 303.8174)" class="st2 st3">Assignment</text>
+<g>
+	<rect x="63.6" y="13.4" class="st0" width="62.4" height="34"/>
+</g>
+<text transform="matrix(1 0 0 1 138.2896 44.4224)" class="st2 st4">SBP</text>
+<g>
+	<rect x="236" y="13.4" class="st1" width="62.4" height="34"/>
+</g>
+<text transform="matrix(1 0 0 1 310.7171 44.4224)" class="st2 st4">PO2</text>
+</svg>
