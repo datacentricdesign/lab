@@ -35,8 +35,6 @@ links:
     url: /series
   - title: Tools
     url: /tools
-  - title: Courses
-    url: /courses
   - title: Tags
     url: /tags
   - title: About Us
@@ -47,10 +45,6 @@ collections:
   tools:
     output: true
     sort_by: title
-  io1075:
-    output: true
-  id5415:
-    output: true
   publications:
     output: true
     sort_by: year
