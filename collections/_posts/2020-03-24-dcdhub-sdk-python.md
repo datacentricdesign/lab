@@ -21,7 +21,7 @@ introduction: The Python SDK facilitates interaction with the Data-Centric Desig
 
 If your Python 3 (not Python 2) environment is ready, you can directly skip to step 3.
 
-## Step 1: Setting up Python 
+## Step 1: Setting up Python
 
 Select, download and install the latest version of Python 3 for your system
 <a href="https://www.python.org/downloads/release/python-372/" target="_blank">here</a>.
@@ -97,7 +97,7 @@ python3 get-pip.py
 ## Step 3: Python in Atom
 
 Atom is a software to edit your code, referred to as Integrated Development Environment.
-Click [here] if you need to install Atom. The next step is the Python plugin for
+Click <a href="https://atom.io/">here</a> if you need to install Atom. The next step is the Python plugin for
 Atom, to get some help specifically for Python in Atom. Go to the terminal and type:
 
 * Only for Windows
@@ -166,7 +166,7 @@ current users.
 
 ## Step 5: Connecting a Thing to the Hub
 
-At this stage you need the credentials of the [Thing](/2020/03/24/dcdhub-api.html#Thing) you 
+At this stage you need the credentials of the [Thing](/2020/03/24/dcdhub-api.html#Thing) you
 want to connect to the hub. If you do not have one yet, please sign in/sign up to
 the DCD Hub and create a [Thing](/2020/03/24/dcdhub-api.html#Thing) following the instructions
 [here](/2020/03/24/dcdhub-api.html#sign-up).
@@ -174,7 +174,7 @@ the DCD Hub and create a [Thing](/2020/03/24/dcdhub-api.html#Thing) following th
 In Atom, right click at the root of your project (left panel) and create a file
 'random-data.py'.
 
-In this file, add the following lines to import the definition of a 
+In this file, add the following lines to import the definition of a
 [Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/2020/03/24/dcdhub-api.html#property-types)
 from the Python SDK.
 
@@ -245,9 +245,9 @@ print(my_thing.to_json())
 ```
 
 To create a [Property](/2020/03/24/dcdhub-api.html#Property) for our [Thing](/2020/03/24/dcdhub-api.html#Thing),
-we can use the method find_or_create_property(). This method takes a property 
+we can use the method find_or_create_property(). This method takes a property
 name and a property type as parameters, search for a property of the same name
-in the Thing, and return the property. If no property is found, it requests the 
+in the Thing, and return the property. If no property is found, it requests the
 creation of a new one on the DCD Hub and returns it. In the following example,
 we create a property with the name 'My Random Property' of type 'THREE_DIMENSIONS',
 meaning that every data point will be compose of three values.
@@ -258,7 +258,7 @@ my_property = my_thing.find_or_create_property("My Random Property",
                                                PropertyType.THREE_DIMENSIONS)
 ```
 
-Similar to the [Thing](/2020/03/24/dcdhub-api.html#Thing), we can display the details of a 
+Similar to the [Thing](/2020/03/24/dcdhub-api.html#Thing), we can display the details of a
 [Property](/2020/03/24/dcdhub-api.html#Property) with the method to_json().
 
 ```python
@@ -317,7 +317,7 @@ def generate_dum_property_values(the_property):
 ```
 
 Finally, we can call this methods infinitely (While True), waiting 2 seconds after
-each update. 
+each update.
 
 ```python
 # Finally, we call our function to start generating dum values
