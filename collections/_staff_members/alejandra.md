@@ -1,7 +1,7 @@
 ---
 name: Alejandra Gomez Ortega
 position: PhD Candidate
-link:
+link: https://www.tudelft.nl/io/over-io/personen/gomez-ortega-a/
 img: /assets/img/people/alejandra.jpg
 ---
 
