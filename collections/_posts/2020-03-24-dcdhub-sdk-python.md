@@ -290,7 +290,7 @@ python3 random-data.py
 If the example runs properly you should see a log generated every two seconds,
 indicating dumb data is being sent to the Hub.
 
-## Step 5: Sending Data
+## Step 7: Sending Data
 
 With this code we are ready to send data to the DCD Hub. To send random data,
 we add two library at the top of the file, the first for generating random numbers,
