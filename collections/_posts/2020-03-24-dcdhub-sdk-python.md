@@ -175,7 +175,7 @@ In Atom, right click at the root of your project (left panel) and create a file
 'random-data.py'.
 
 In this file, add the following lines to import the definition of a
-[Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/2020/03/24/dcdhub-api.html#property-types)
+[Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/dcdhub-api/#property-types)
 from the Python SDK.
 
 ```python
