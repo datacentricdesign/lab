@@ -14,12 +14,15 @@ tags:
 categories:
 - DCD Hub
 twitter_text:
-introduction: The Python SDK facilitates interaction with the Data-Centric Design Hub.
+introduction: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
 ---
 
 # Getting Started
 
-If your Python 3 (not Python 2) environment is ready, you can directly skip to step 3.
+This tutorial will guide you through the steps for creating Python scripts to interact with Things on the <a href="https://dwd.tudelft.nl/subject/auth" target="_blank">Data-Centric Design Hub</a>. You'll be using parts of the
+ <a href="https://github.com/datacentricdesign/dcd-sdk-python" target="_blank">Data-Centric Design Hub SDK</a> to create Things, assign them attributes and give those attributes values.
+ To start, you'll need to install a Python environment.
+ If you already have a Python 3 (not Python 2) environment on your system, you can directly skip to step 3.
 
 ## Step 1: Setting up Python
 
