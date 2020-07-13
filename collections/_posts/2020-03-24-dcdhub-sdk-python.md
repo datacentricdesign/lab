@@ -29,11 +29,19 @@ This tutorial will guide you through the steps for creating Python scripts to in
 Select, download and install the latest version of Python 3 for your system
 <a href="https://www.python.org/downloads/release/python-372/" target="_blank">here</a>.
 
+### Adding Python commands to your PATH
+
+In order to use Python scripts efficiently from command lines (e.g. the terminal in Atom below), you'll need to include your new Python directory in your system PATH.
+
 * Only for Windows
 
-Once installed, go to 'Start > System > Properties > Advanced System Properties >
-Environment Variable' In User Variables, double click on 'Path'. At the end of
-the line, add a semi-colon <b>;</b> (without space), followed by:
+The way to adjust your PATH in Windows will differ depending on what version of Windows you have installed. For most users you can do one of the following:
+
+- Go to 'Start > System > Properties > Advanced System Properties >
+Environment Variable' In User Variables, double click on 'Path'.
+- Right-click start > search > ’Edit Environment Variables’
+
+At the end of the line (or, in Windows 10, click 'new'), add a semi-colon <b>;</b> (without space), followed by:
 
  ```bash
  C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37;C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37 \Scripts
@@ -41,13 +49,13 @@ the line, add a semi-colon <b>;</b> (without space), followed by:
 
 (Replace YOUR_USERNAME with your Windows user name)
 
-Open the Command Prompt to check the installation, by typing in your console:
+Open the <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/" target="_blank">Command Prompt</a> to check the installation, by typing in your console:
 
 ```bash
 python --version
 ```
 
-And verifying that the correct version of python was installed.
+And verifying that the correct version (3.0 or higher) of python was installed.
 
 
 * Only for Mac / Linux
