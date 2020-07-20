@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: false
-title:  "Ethical Data-Centric Design of Intelligent Behaviour"
+title:  "DatEthics Workshop"
 date:   2020-03-25 01:30:13
 image:
-description: MobileHCI Workshop
+description: "First International Workshop on Ethical Data-Centric Design of Intelligent Behaviour"
 main-class: 'event'
 color:
 author: /staff_members/jacky
@@ -14,7 +14,7 @@ tags:
 - responsible
 - ethics
 categories:
-twitter_text:
+twitter_text: DatEthics Workshop @ MobileHCI 2020
 featured: true
 introduction: We will organise a workshop at Mobile HCI 2020 (Oct 5th, Oldenburg, Germany) to discuss how mobile devices can contribute to addressing ethical issues around data-centric design.
 ---
@@ -27,4 +27,4 @@ The Internet of Things makes human activity data – what people do, how they mo
 
 The outcomes of this workshop will foster ethical research and inspire the MobileHCI community.
 
-[Workshop Website](https://datacentricdesign.org/mobilehci-2020/)
+[Workshop Website](https://mobilehci-2020.datacentricdesign.org)

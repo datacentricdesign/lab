@@ -16,7 +16,7 @@ tags:
 categories:
 - "Design and Digital Technology"
 twitter_text:
-featured: true
+featured: false
 introduction: Let's take a walk throug the 10 principles of the IoT Design Manifesto with some examples.
 ---
 
