@@ -1,6 +1,10 @@
 ---
 layout: minimal
-title: "DataBucket"
+title: "Bucket"
 permalink: /tools/bucket
-description: "A cloud platform to collect and analyse data."
+description: "A cloud platform to collect data."
 ---
+
+Available soon!
+
+See the development of Bucket [here](https://github.com/datacentricdesign/bucket)
