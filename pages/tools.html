@@ -6,7 +6,7 @@ image: '/assets/img/series.png'
 description: "Our tools for Data-Centric Designers!"
 ---
 
-<div id="grid-modules" class="row flex-grid">
+<div id="grid-tools" class="row flex-grid">
   {% for tool in site.tools %}
   <article class="box-item" itemscope="itemscope" itemprop="blogPost">
       <span class="ribbon">
@@ -21,7 +21,7 @@ description: "Our tools for Data-Centric Designers!"
           {% if tool.image != null %}
           <img src="/assets/img/{{ tool.image }}" style="max-width: 300px;">
           {% endif %}
-          <a class="post-link" href="{{ module.url | prepend: site.baseurl }}">
+          <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}">
               <p class="description">{{ tool.introduction }}</p>
           </a>
       </div>
