@@ -14,23 +14,34 @@ tags:
 categories:
 - DCD Hub
 twitter_text:
-introduction: The Python SDK facilitates interaction with the Data-Centric Design Hub.
+introduction: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
 ---
 
 # Getting Started
 
-If your Python 3 (not Python 2) environment is ready, you can directly skip to step 3.
+This tutorial will guide you through the steps for creating Python scripts to interact with Things on the <a href="https://dwd.tudelft.nl/subject/auth" target="_blank">Data-Centric Design Hub</a>. You'll be using parts of the
+ <a href="https://github.com/datacentricdesign/dcd-sdk-python" target="_blank">Data-Centric Design Hub SDK</a> to create Things, assign them attributes and give those attributes values.
+ To start, you'll need to install a Python environment.
+ If you already have a Python 3 (not Python 2) environment on your system, you can directly skip to step 3.
 
-## Step 1: Setting up Python 
+## Step 1: Setting up Python
 
 Select, download and install the latest version of Python 3 for your system
 <a href="https://www.python.org/downloads/release/python-372/" target="_blank">here</a>.
 
+### Adding Python commands to your PATH
+
+In order to use Python scripts efficiently from command lines (e.g. the terminal in Atom below), you'll need to include your new Python directory in your system PATH.
+
 * Only for Windows
 
-Once installed, go to 'Start > System > Properties > Advanced System Properties >
-Environment Variable' In User Variables, double click on 'Path'. At the end of
-the line, add a semi-colon <b>;</b> (without space), followed by:
+The way to adjust your PATH in Windows will differ depending on what version of Windows you have installed. For most users you can do one of the following:
+
+- Go to 'Start > System > Properties > Advanced System Properties >
+Environment Variable' In User Variables, double click on 'Path'.
+- Right-click start > search > ’Edit Environment Variables’
+
+At the end of the line (or, in Windows 10, click 'new'), add a semi-colon <b>;</b> (without space), followed by:
 
  ```bash
  C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37;C:\Users\YOUR_USERNAME\AppData\Local\Programs\Python\Python37 \Scripts
@@ -38,13 +49,13 @@ the line, add a semi-colon <b>;</b> (without space), followed by:
 
 (Replace YOUR_USERNAME with your Windows user name)
 
-Open the Command Prompt to check the installation, by typing in your console:
+Open the <a href="https://www.howtogeek.com/235101/10-ways-to-open-the-command-prompt-in-windows-10/" target="_blank">Command Prompt</a> to check the installation, by typing in your console:
 
 ```bash
 python --version
 ```
 
-And verifying that the correct version of python was installed.
+And verifying that the correct version (3.0 or higher) of python was installed.
 
 
 * Only for Mac / Linux
@@ -97,7 +108,7 @@ python3 get-pip.py
 ## Step 3: Python in Atom
 
 Atom is a software to edit your code, referred to as Integrated Development Environment.
-Click [here] if you need to install Atom. The next step is the Python plugin for
+Click <a href="https://atom.io/">here</a> if you need to install Atom. The next step is the Python plugin for
 Atom, to get some help specifically for Python in Atom. Go to the terminal and type:
 
 * Only for Windows
@@ -166,16 +177,16 @@ current users.
 
 ## Step 5: Connecting a Thing to the Hub
 
-At this stage you need the credentials of the [Thing](/2020/03/24/dcdhub-api.html#Thing) you 
+At this stage you need the credentials of the [Thing](/2020/03/24/dcdhub-api.html#Thing) you
 want to connect to the hub. If you do not have one yet, please sign in/sign up to
 the DCD Hub and create a [Thing](/2020/03/24/dcdhub-api.html#Thing) following the instructions
-[here](/2020/03/24/dcdhub-api.html#sign-up).
+[here](/dcdhub-api/#sign-up).
 
 In Atom, right click at the root of your project (left panel) and create a file
 'random-data.py'.
 
-In this file, add the following lines to import the definition of a 
-[Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/2020/03/24/dcdhub-api.html#property-types)
+In this file, add the following lines to import the definition of a
+[Thing](/2020/03/24/dcdhub-api.html#Thing) and [PropertyType](/dcdhub-api/#property-types)
 from the Python SDK.
 
 ```python
@@ -245,9 +256,9 @@ print(my_thing.to_json())
 ```
 
 To create a [Property](/2020/03/24/dcdhub-api.html#Property) for our [Thing](/2020/03/24/dcdhub-api.html#Thing),
-we can use the method find_or_create_property(). This method takes a property 
+we can use the method find_or_create_property(). This method takes a property
 name and a property type as parameters, search for a property of the same name
-in the Thing, and return the property. If no property is found, it requests the 
+in the Thing, and return the property. If no property is found, it requests the
 creation of a new one on the DCD Hub and returns it. In the following example,
 we create a property with the name 'My Random Property' of type 'THREE_DIMENSIONS',
 meaning that every data point will be compose of three values.
@@ -258,7 +269,7 @@ my_property = my_thing.find_or_create_property("My Random Property",
                                                PropertyType.THREE_DIMENSIONS)
 ```
 
-Similar to the [Thing](/2020/03/24/dcdhub-api.html#Thing), we can display the details of a 
+Similar to the [Thing](/2020/03/24/dcdhub-api.html#Thing), we can display the details of a
 [Property](/2020/03/24/dcdhub-api.html#Property) with the method to_json().
 
 ```python
@@ -290,7 +301,7 @@ python3 random-data.py
 If the example runs properly you should see a log generated every two seconds,
 indicating dumb data is being sent to the Hub.
 
-## Step 5: Sending Data
+## Step 7: Sending Data
 
 With this code we are ready to send data to the DCD Hub. To send random data,
 we add two library at the top of the file, the first for generating random numbers,
@@ -317,7 +328,7 @@ def generate_dum_property_values(the_property):
 ```
 
 Finally, we can call this methods infinitely (While True), waiting 2 seconds after
-each update. 
+each update.
 
 ```python
 # Finally, we call our function to start generating dum values
