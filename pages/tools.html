@@ -14,3 +14,25 @@ description: "Take a look at our tools!"
 </h2>
 <p>{{ tool.description | markdownify }}</p>
 {% endfor %}
+
+
+<div id="grid-modules" class="row flex-grid">
+  {% for tool in site.tools %}
+  <article class="box-item" itemscope="itemscope" itemprop="blogPost">
+      <span class="ribbon">
+          <span>{{ tool.type }}</span>
+      </span>
+      <div class="box-body">
+          <a class="post-link" href="{{ module.url | prepend: site.baseurl }}">
+              <h2 class="post-title" itemprop="name">
+                  {{ tool.title }}
+              </h2>
+          </a>
+          <img src="/assets/img/courses/{{module.module-of}}/module{{module.module-id}}.svg" style="max-width: 300px;">
+          <a class="post-link" href="{{ module.url | prepend: site.baseurl }}">
+              <p class="description">{{ tool.introduction }}</p>
+          </a>
+      </div>
+  </article>
+  {% endfor %}
+</div>

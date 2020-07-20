@@ -3,6 +3,7 @@ layout: minimal
 title: "Bucket"
 permalink: /tools/bucket
 description: "A cloud platform to collect data."
+type: "Cloud"
 ---
 
 Available soon!

@@ -3,6 +3,7 @@ layout: minimal
 title: "Grafana"
 permalink: /tools/grafana
 description: "Connecting the powerful visualisation tool to Bucket."
+type: Visualisation
 ---
 
 Available soon!

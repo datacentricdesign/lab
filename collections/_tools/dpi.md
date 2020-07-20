@@ -3,6 +3,7 @@ layout: minimal
 title: "DPi"
 permalink: /tools/dpi
 description: "A Designer Kit for Raspberry Pi."
+type: Raspberry Pi
 ---
 
 Available soon via the Bucket!

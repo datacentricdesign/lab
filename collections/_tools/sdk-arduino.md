@@ -1,21 +1,11 @@
 ---
-layout: post
-comments: false
-title:  "DCD Hub - Arduino SDK"
+layout: minimal
+title:  "Data-Centric Design Kit"
 date:   2020-03-24 01:30:13
 image: 'posts/technology-Marc-Mueller-Pixabay-1784564_1920.jpg'
-description: Interacting with the DCD Hub
-main-class: 'tutorial'
-color:
+description: The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
+type: Arduino
 author: /staff_members/nirav
-tags:
-- sdk
-- Arduino
-- hub
-categories:
-- DCD Hub
-twitter_text:
-introduction: The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
 ---
 
 # Getting Started

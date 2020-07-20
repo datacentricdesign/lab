@@ -1,20 +1,10 @@
 ---
-layout: post
-comments: false
-title:  "DCD Hub - Python SDK"
+layout: minimal
+title:  "Data-Centric Design Kit"
 date:   2020-03-24 01:30:13
 image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
-description: Interacting with the DCD Hub
-main-class: 'tutorial'
-color:
-tags:
-- SDK
-- Python
-- hub
-categories:
-- DCD Hub
-twitter_text:
-introduction: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
+description: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
+type: Python
 ---
 
 # Getting Started

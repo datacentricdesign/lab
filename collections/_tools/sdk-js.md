@@ -1,21 +1,10 @@
 ---
-layout: post
-comments: false
-title:  "DCD Hub - JavaScript SDK"
+layout: minimal
+title:  "Data-Centric Design Kit"
 date:   2020-03-24 01:30:13
 image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
-description: Interacting with the DCD Hub
-main-class: 'tutorial'
-color:
-tags:
-- SDK
-- JavaScript
-- js
-- hub
-categories:
-- DCD Hub
-twitter_text:
-introduction: The Javascript SDK facilitates prototyping web apps that connects to the dcd hub.
+description: The Javascript SDK facilitates prototyping web apps that connects to the dcd hub.
+type: JavaScript
 ---
 
 # Getting Started
