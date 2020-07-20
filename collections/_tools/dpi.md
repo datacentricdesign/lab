@@ -3,6 +3,7 @@ layout: minimal
 title: "DPi"
 permalink: /tools/dpi
 description: "A Designer Kit for Raspberry Pi."
+introduction: DPi is custom made Raspberry Pi system, ready for designer to start prototyping a connected product.
 type: Raspberry Pi
 ---
 

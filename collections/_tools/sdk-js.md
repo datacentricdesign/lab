@@ -1,9 +1,10 @@
 ---
 layout: minimal
-title:  "Data-Centric Design Kit"
+title:  "DCD Kit - JavaScript"
 date:   2020-03-24 01:30:13
 image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
-description: The Javascript SDK facilitates prototyping web apps that connects to the dcd hub.
+description: Data-Centric Design Kit to interact with Bucket in JavaScript
+introduction: The Javascript SDK facilitates prototyping web apps that connects to the dcd hub.
 type: JavaScript
 ---
 

@@ -1,9 +1,10 @@
 ---
 layout: minimal
-title:  "Data-Centric Design Kit"
+title:  "DCD Kit Arduino"
 date:   2020-03-24 01:30:13
 image: 'posts/technology-Marc-Mueller-Pixabay-1784564_1920.jpg'
-description: The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
+description: Data-Centric Design Kit to interact with Bucket from Arduino
+introduction: The Arduino SDK facilitates WiFi-enabled Arduinos to connect to the dcd hub and update the values of the thing's property.
 type: Arduino
 author: /staff_members/nirav
 ---

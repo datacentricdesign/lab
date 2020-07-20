@@ -1,9 +1,10 @@
 ---
 layout: minimal
-title:  "Data-Centric Design Kit"
+title:  "DCD Kit - Python"
 date:   2020-03-24 01:30:13
 image: 'posts/laptop-Lukas-Bieri-Pixabay-2838917_1920.jpg'
-description: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
+description: Data-Centric Design Kit to interact with Bucket in Python
+introduction: This tutorial shows how to use a Python software development toolkit (SDK) to interact with the Data-Centric Design Hub.
 type: Python
 ---
 
