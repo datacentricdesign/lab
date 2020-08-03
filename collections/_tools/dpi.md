@@ -15,14 +15,14 @@ DPi is custom made Raspberry Pi system, ready for designer to start prototyping 
 type. It will prompt you for some additional information such as user credentials
 and network. After a few minutes, you will receive an email to download your DPi image, ready to go!
 
-## Getting started fast, remotly and with security 
+## Getting started fast, remotely and with security 
 
-Raspberry Pi settings can be combersum when getting started. DPi enables SSH, disable auto-login and set your own, secured network credentials so that you can directly access your pi remotly without a monitor/keyboard/mouse.
+Raspberry Pi settings can be combersome when getting started. DPi enables SSH, disables auto-login and sets your own, secured network credentials so that you can directly access your pi remotely without a monitor/keyboard/mouse.
 
 
 ## Sending data to the cloud, from the first minute!
 
-DPi embbed a private key which has a public key registered on Bucket, attach to your registered Thing. It means that DPi is automatically able to send and receive data from Bucket, out of the box! By default, it shares its CPU usage every minute (for demonstration purpose) and its IP address (convenient on some large network to locate your Raspberry Pi).
+DPi embbed a private key which has a public key registered on Bucket, attached to your registered Thing. It means that DPi is automatically able to send and receive data from Bucket, out of the box! By default, it shares its CPU usage every minute (for demonstration purposes) and its IP address (convenient on some large network to locate your Raspberry Pi).
 
 ## Eduroam ready
 
@@ -32,3 +32,16 @@ If you fill in your university credentials, it setups the connection to Eduroam 
 
 Designing your connected product, you might want to rely on a WiFi network that you fully control. DPi comes with all the necessary libraries to quickly start your on WiFi network, directly on the Raspberry Pi. In this setting you will need an ethernet
 connection to access the Internet.
+
+
+## Customizations 
+* Reconfiguration of network driver launch, and automatic configuration of supplicant file to work with eduroam with supplied credentials
+* Raspbian setup:
+  * SPI & I2C enabled by default
+  * SSH access on, autologin disabled 
+  * Lite version of raspbian with a few extra installs (stopped stage 5 of raspbian)
+* Installed all DCD python dependencies 
+* Several ancillary/stale items are removed, including python2
+* Custom service scripts preinstalled in, with embedded thing keys in each folder. 
+  * `/etc/systemd/system/service_scripts/` 
+  * `/etc/systemd/system/service_scripts/python/`
