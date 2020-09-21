@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Tools"
 permalink: /tools/index.html
 image: '/assets/img/series.png'
@@ -7,24 +7,20 @@ description: "Our tools for Data-Centric Designers!"
 ---
 
 <div id="grid-tools" class="row flex-grid">
-  {% for tool in site.tools %}
-  <article class="box-item" itemscope="itemscope" itemprop="blogPost">
-      <span class="ribbon">
-          <span>{{ tool.type }}</span>
-      </span>
-      <div class="box-body">
-          <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}">
-              <h2 class="post-title" itemprop="name">
-                  {{ tool.title }}
-              </h2>
-          </a>
-          {% if tool.image != null %}
-          <img src="/assets/img/{{ tool.image }}" style="max-width: 300px;">
-          {% endif %}
-          <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}">
-              <p class="description">{{ tool.introduction }}</p>
-          </a>
-      </div>
-  </article>
-  {% endfor %}
+    {% for tool in site.tools %}
+    <article class="box-item" itemscope="itemscope" itemprop="blogPost">
+        <span class="ribbon">
+            <span>{{ tool.type }}</span>
+        </span>
+        <div class="box-body" style="background-image: url('/assets/img/{{ tool.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+            <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}" target="_blank">
+                <h2 class="post-title" itemprop="name">
+                    {{ tool.title }}
+                </h2>
+                <p>{{ tool.description }}</p>
+                <p class="description">{{ tool.introduction }}</p>
+            </a>
+        </div>
+    </article>
+    {% endfor %}
 </div>

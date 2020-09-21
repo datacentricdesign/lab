@@ -1,6 +1,22 @@
 <header class="bar-header">
+    <span class="menu-header">
+        <a href="{{site.baseurl}}/people">People</a>
+        <a href="{{site.baseurl}}/projects" style="margin-left: 10px;">Projects</a>
+        <a href="{{site.baseurl}}/tools" style="margin-left: 10px;">Tools</a>
+        <a href="{{site.baseurl}}/courses" style="margin-left: 10px;">Courses</a>
+        <a href="{{site.baseurl}}/publications" style="margin-left: 10px;">Publications</a>
+    </span>
     <h1 class="logo">
         <a href="{{site.baseurl}}/"></a>
     </h1>
 </header>
+
 {% include menu-search.html %}
+
+<header class="header-post" role="banner"
+    style="background-size: cover; background-image: url('/assets/img/courses/{{page.module-of}}/module{{page.module-id}}.svg');background-repeat:no-repeat;background-position: center;">
+    <div class="content">
+        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
+        <p itemprop="description" class="subtitle">{{ page.description }}</p>
+    </div>
+</header>

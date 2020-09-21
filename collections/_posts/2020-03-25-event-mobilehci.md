@@ -9,7 +9,6 @@ main-class: 'event'
 color:
 author: /staff_members/jacky
 tags:
-- workshop
 - mobile
 - responsible
 - ethics

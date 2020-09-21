@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Terms and Conditions"
 permalink: /tools/terms
 description: "Last updated: May 10, 2020"

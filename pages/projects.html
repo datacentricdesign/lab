@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Projects"
+permalink: /projects/index.html
+image: 
+description: "Past, ongoing, and opportunities"
+---
+
+<div id="grid-projects" class="row flex-grid">
+    {% for project in site.projects %}
+    <article class="box-item" itemscope="itemscope" itemprop="blogPost">
+        <span class="ribbon">
+            <span>{{ project.type }}</span>
+        </span>
+        <div class="box-body" style="background-image: url('/assets/img/{{ project.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+            <a class="post-link" href="{{ project.url | prepend: site.baseurl }}" target="_blank">
+                <h2 class="post-title" itemprop="name">
+                    {{ project.title }}
+                </h2>
+                <p>{{ project.description }}</p>
+                <p class="description">{{ project.introduction }}</p>
+            </a>
+        </div>
+    </article>
+    {% endfor %}
+</div>

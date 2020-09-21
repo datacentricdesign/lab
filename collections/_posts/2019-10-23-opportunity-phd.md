@@ -8,7 +8,6 @@ description: PhD position
 main-class: 'opportunity'
 color:
 tags:
-- position
 - PhD
 categories:
 twitter_text:

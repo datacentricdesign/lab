@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Courses"
+permalink: /courses/index.html
+image: '/assets/img/dcd-lab.png'
+description: "Teaching activities we are leading"
+---
+
+<div id="grid-courses" class="row flex-grid">
+    {% for course in site.courses %}
+    <article class="box-item" itemscope="itemscope" itemprop="blogPost">
+        <span class="ribbon">
+            <span>{{ course.level }}</span>
+        </span>
+        <div class="box-body" style="background-image: url('/assets/img/{{ course.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+            <a class="post-link" href="{{ course.url | prepend: site.baseurl }}" target="_blank">
+                <h2 class="post-title" itemprop="name">
+                    {{ course.title }}
+                </h2>
+                <p>{{ course.description }}</p>
+                <p class="description">{{ course.introduction }}</p>
+            </a>
+        </div>
+    </article>
+    {% endfor %}
+</div>

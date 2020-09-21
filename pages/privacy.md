@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Privacy Policy"
 permalink: /tools/privacy
 description: "Last updated: May 8, 2020"

@@ -1,0 +1,31 @@
+---
+layout: default
+title: "Using Data as Design Material"
+permalink: /index.html
+---
+
+<div id="grid-posts" class="row flex-grid">
+    {% for post in site.posts %}
+    <article class="box-item" itemscope="itemscope" itemprop="blogPost">
+        <span class="ribbon">
+            <span>{{ post.category }}</span>
+        </span>
+        <div class="box-body" style="background-image: url('/assets/img/{{ post.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 170px;" >
+            <a class="post-link" href="{{ course.url | prepend: site.baseurl }}" target="_blank">
+                {% if post.youtube != null %}
+                <iframe style="position: absolute; top: 0px; left: 0px; margin: auto; width: 100%; height: 170px" width="" src="https://www.youtube-nocookie.com/embed/{{post.youtube}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% endif %}
+                <h2 class="post-title" itemprop="name">
+                    {{ post.title }}
+                </h2>
+                <p class="description">{{ post.description }}</p>
+            </a>
+            <div class="tags">
+                {% for tag in post.tags %}
+                <a href="{{site.baseurl}}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                {% endfor %}
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</div>

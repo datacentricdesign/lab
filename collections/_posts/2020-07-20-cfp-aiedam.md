@@ -9,9 +9,8 @@ main-class: 'event'
 color:
 author: /staff_members/jacky
 tags:
-- Special Issue
 - Data-Enabled Design
-- AI-EDAM
+- AI
 categories:
 twitter_text: Special Issue on Data-Enabled Design @ AI-EDAM
 featured: true
