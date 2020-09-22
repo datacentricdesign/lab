@@ -8,7 +8,7 @@ description: "First International Workshop on Ethical Data-Centric Design of Int
 main-class: 'event'
 color:
 author: /staff_members/jacky
-url: https://mobilehci-2020.datacentricdesign.org/
+link: https://mobilehci-2020.datacentricdesign.org/
 tags:
 - mobile
 - responsible

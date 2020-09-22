@@ -8,7 +8,7 @@ description: "Call for Papers - Thematic Collection: Perspectives on Data-Enable
 main-class: 'event'
 color:
 author: /staff_members/jacky
-url: https://www.cambridge.org/core/journals/ai-edam/cfp-data-enabled-design
+link: https://www.cambridge.org/core/journals/ai-edam/cfp-data-enabled-design
 tags:
 - Data-Enabled Design
 - AI
