@@ -18,7 +18,7 @@ featured: true
 introduction: We will organise a workshop at Mobile HCI 2020 (Oct 5th, Oldenburg, Germany) to discuss how mobile devices can contribute to addressing ethical issues around data-centric design.
 ---
 
-The Internet of Things makes human activity data – what people do, how they move, how they socialise – an abundant resource. However, this rich and intimate perspective on people, which uniquely shape and characterise their behaviours, can have tremendous ethical implication if data is handled irresponsibly. Being personal, contextual and accessible, mobile devices are key facilitators of (ir)responsible collection and use of data. In this workshop, we will use the Future Workshop approach to develop a research agenda towards ethical data-centric design of intelligent behaviours. As part of this approach, we will:
+The Internet of Things makes human activity data – what people do, how they move, how they socialise – an abundant resource. However, this rich and intimate perspective on people, which uniquely shape and characterise their behaviours, can have tremendous ethical implication if data is handled irresponsibly. Being personal, contextual and accessible, mobile devices are key facilitators of (ir)responsible collection and use of data. In this workshop, we will use the Future Workshop approach to develop a research agenda towards an ethical data-centric design of intelligent behaviours. As part of this approach, we will:
 
 * criticise the current mechanisms and infrastructure to frame ethical challenges
 * fantasise on futures which support user and designer values, and

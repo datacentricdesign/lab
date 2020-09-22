@@ -34,7 +34,7 @@ We obtain information about you in a range of ways:
 
 ## Information You Give Us.
 
-The only mandatory information is a valid email address, when signing up. We use this email address to identify you
+The only mandatory information is a valid email address when signing up. We use this email address to identify you
 throughout our tools. We do not share it with any third-party without your explicit consent. You can change this email
 address on your [profile page](/). Your profile shows a summary of all data we possess, collected through our tools.
 
