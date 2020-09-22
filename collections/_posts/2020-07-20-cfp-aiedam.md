@@ -5,7 +5,7 @@ title:  "AIEDAM CfP: Perspectives on Data-Enabled Design"
 date:   2020-07-20 10:00:00
 image: posts/aiedam.png
 description: "Call for Papers - Thematic Collection: Perspectives on Data-Enabled Design - Design meets Data Science"
-main-class: 'event'
+type: 'event'
 color:
 author: /staff_members/jacky
 link: https://www.cambridge.org/core/journals/ai-edam/cfp-data-enabled-design

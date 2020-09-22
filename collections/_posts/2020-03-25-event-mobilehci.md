@@ -5,7 +5,7 @@ title:  "DatEthics Workshop"
 date:   2020-03-25 01:30:13
 image:
 description: "First International Workshop on Ethical Data-Centric Design of Intelligent Behaviour"
-main-class: 'event'
+type: 'event'
 color:
 author: /staff_members/jacky
 link: https://mobilehci-2020.datacentricdesign.org/
@@ -13,7 +13,6 @@ tags:
 - mobile
 - responsible
 - ethics
-categories:
 twitter_text: DatEthics Workshop @ MobileHCI 2020
 featured: true
 introduction: We will organise a workshop at Mobile HCI 2020 (Oct 5th, Oldenburg, Germany) to discuss how mobile devices can contribute to addressing ethical issues around data-centric design.

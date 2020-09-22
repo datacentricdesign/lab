@@ -5,15 +5,13 @@ title:  "Designing for Home Emerging Electricity Technologies"
 date:   2020-04-06 22:30:00
 youtube: videoseries?list=PL3sV9hKiYEP8E-wrdGDefPameW12GsQOY
 description: Series on Design and Digital Technology
-main-class: 'education'
+type: 'education'
 color:
 author: /staff_members/jacky
 tags:
 - technology
 - energy
 - Participatory Data Analysis
-categories:
-- "Design and Digital Technology"
 twitter_text:
 introduction: A walk through a Case Study leveraging data in design.
 ---

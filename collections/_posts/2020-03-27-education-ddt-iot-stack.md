@@ -6,14 +6,12 @@ date:   2020-03-31 00:00:00
 youtube: videoseries?list=PL3sV9hKiYEP-MVdxCXYfl7vei77xdbJo6
 pdf: dcd-ddt-iot-stack-notes.pdf
 description: Series on Design and Digital Technology
-main-class: 'education'
+type: 'education'
 color:
 author: /staff_members/jacky
 tags:
 - IoT
 - technology
-categories:
-- "Design and Digital Technology"
 twitter_text:
 introduction: Short series on the so-called IoT stack, the different technology layers the makes the Internet of Things.
 ---

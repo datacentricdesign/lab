@@ -12,7 +12,8 @@ description: "Teaching activities we are leading"
         <span class="ribbon">
             <span>{{ course.level }}</span>
         </span>
-        <div class="box-body" style="background-image: url('/assets/img/{{ course.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+        <div class="img-tile" style="background-image: url('/assets/img/{{ course.image }}')"></div>
+        <div class="box-body" >
             <a class="post-link" href="{{ course.url | prepend: site.baseurl }}" target="_blank">
                 <h2 class="post-title" itemprop="name">
                     {{ course.title }}

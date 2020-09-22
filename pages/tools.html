@@ -12,7 +12,8 @@ description: "Our tools for Data-Centric Designers!"
         <span class="ribbon">
             <span>{{ tool.type }}</span>
         </span>
-        <div class="box-body" style="background-image: url('/assets/img/{{ tool.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+        <div class="img-tile" style="background-image: url('/assets/img/{{ tool.image }}')"></div>
+        <div class="box-body">
             <a class="post-link" href="{{ tool.url | prepend: site.baseurl }}" target="_blank">
                 <h2 class="post-title" itemprop="name">
                     {{ tool.title }}

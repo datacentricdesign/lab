@@ -12,7 +12,8 @@ description: "Past, ongoing, and opportunities"
         <span class="ribbon">
             <span>{{ project.type }}</span>
         </span>
-        <div class="box-body" style="background-image: url('/assets/img/{{ project.image }}');background-repeat: no-repeat; background-size: 100%;padding-top: 270px;" >
+        <div class="img-tile" style="background-image: url('/assets/img/{{ project.image }}')"></div>
+        <div class="box-body" >
             <a class="post-link" href="{{ project.url | prepend: site.baseurl }}" target="_blank">
                 <h2 class="post-title" itemprop="name">
                     {{ project.title }}

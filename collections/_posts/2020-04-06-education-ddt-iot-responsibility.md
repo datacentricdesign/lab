@@ -5,15 +5,13 @@ title:  "IoT Design Responsibility"
 date:   2020-04-08 10:00:00
 youtube: rg3poNvpAHg
 description: Series on Design and Digital Technology
-main-class: 'education'
+type: 'education'
 color:
 author: /staff_members/jacky
 tags:
 - technology
 - IoT
 - responsibility
-categories:
-- "Design and Digital Technology"
 twitter_text:
 featured: false
 introduction: Let's take a walk through the 10 principles of the IoT Design Manifesto with some examples.
